@@ -185,15 +185,26 @@ module api.form.inputtype.text {
                 textAreaWrapper.addClass(focusedEditorCls);
             };
 
-            const ckeditor: editor = new HTMLAreaBuilder().setEditorContainerId(id).setAssetsUri(assetsUri).setInline(false).onCreateDialog(
-                createDialogHandler).setFocusHandler(focusHandler.bind(this)).setBlurHandler(blurHandler.bind(this)).setKeydownHandler(
-                keydownHandler).setKeyupHandler(notifyValueChanged).setNodeChangeHandler(notifyValueChanged).setContentPath(
-                this.contentPath).setContent(this.content).setApplicationKeys(this.applicationKeys).setTools({
-                include: this.inputConfig['include'],
-                exclude: this.inputConfig['exclude']
-            }).setForcedRootBlock(
-                this.inputConfig['forcedRootBlock'] ? this.inputConfig['forcedRootBlock'][0].value : 'p').setEditableSourceCode(
-                this.editableSourceCode).createEditor();
+            const ckeditor: editor = new HTMLAreaBuilder().
+                setEditorContainerId(id).
+                setAssetsUri(assetsUri).
+                setInline(false).
+                onCreateDialog(createDialogHandler).
+                setFocusHandler(focusHandler.bind(this)).
+                setBlurHandler(blurHandler.bind(this)).
+                setKeydownHandler(keydownHandler).
+                setKeyupHandler(notifyValueChanged).
+                setNodeChangeHandler(notifyValueChanged).
+                setContentPath(this.contentPath).
+                setContent(this.content).
+                setApplicationKeys(this.applicationKeys).
+                setTools({
+                    include: this.inputConfig['include'],
+                    exclude: this.inputConfig['exclude']
+                }).
+                setForcedRootBlock(this.inputConfig['forcedRootBlock'] ? this.inputConfig['forcedRootBlock'][0].value : 'p').
+                setEditableSourceCode(this.editableSourceCode).
+                createEditor();
 
             ckeditor.on('loaded', () => {
                 this.setEditorContent(id, property);
