@@ -7,7 +7,7 @@ module api.liveedit.text {
     import ModalDialog = api.util.htmlarea.dialog.ModalDialog;
     import Promise = Q.Promise;
     import i18n = api.util.i18n;
-    import editor = CKEDITOR.editor;
+    import HTMLAreaEditor = CKEDITOR.editor;
     declare var CONFIG;
 
 
@@ -23,7 +23,7 @@ module api.liveedit.text {
 
         private rootElement: api.dom.Element;
 
-        private htmlAreaEditor: editor;
+        private htmlAreaEditor: HTMLAreaEditor;
 
         private isInitializingEditor: boolean;
 

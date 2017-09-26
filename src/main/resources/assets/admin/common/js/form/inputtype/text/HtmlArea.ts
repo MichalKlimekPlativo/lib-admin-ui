@@ -1,5 +1,7 @@
 module api.form.inputtype.text {
 
+    declare var CONFIG;
+
     import support = api.form.inputtype.support;
     import Property = api.data.Property;
     import Value = api.data.Value;
@@ -11,7 +13,7 @@ module api.form.inputtype.text {
     import ApplicationKey = api.application.ApplicationKey;
     import Promise = Q.Promise;
     import AppHelper = api.util.AppHelper;
-    import editor = CKEDITOR.editor;
+    import HTMLAreaEditor = CKEDITOR.editor;
 
     export class HtmlArea extends support.BaseInputTypeNotManagingAdd<string> {
 
@@ -185,7 +187,7 @@ module api.form.inputtype.text {
                 textAreaWrapper.addClass(focusedEditorCls);
             };
 
-            const ckeditor: editor = new HTMLAreaBuilder().
+            const editor: HTMLAreaEditor = new HTMLAreaBuilder().
                 setEditorContainerId(id).
                 setAssetsUri(assetsUri).
                 setInline(false).
@@ -206,7 +208,7 @@ module api.form.inputtype.text {
                 setEditableSourceCode(this.editableSourceCode).
                 createEditor();
 
-            ckeditor.on('loaded', () => {
+            editor.on('loaded', () => {
                 this.setEditorContent(id, property);
 
                 if (this.notInLiveEdit()) {
@@ -215,9 +217,8 @@ module api.form.inputtype.text {
 
                 this.removeTooltipFromEditorArea(textAreaWrapper);
 
-                this.moveFullScreenButtonToBottomBar(textAreaWrapper);
-
-                this.moveFullSourceButtonToBottomBar(textAreaWrapper);
+                this.moveButtonToBottomBar(textAreaWrapper, '.cke_button__maximize');
+                this.moveButtonToBottomBar(textAreaWrapper, '.cke_button__code');
 
                 const removeButtonEL = wemjq(textAreaWrapper.getParentElement().getParentElement().getHTMLElement()).find(
                     '.remove-button')[0];
@@ -231,13 +232,8 @@ module api.form.inputtype.text {
             });
         }
 
-        private moveFullScreenButtonToBottomBar(inputOccurence: Element): void {
-            wemjq(inputOccurence.getHTMLElement()).find('.cke_button__maximize').appendTo(
-                wemjq(inputOccurence.getHTMLElement()).find('.cke_bottom'));
-        }
-
-        moveFullSourceButtonToBottomBar(inputOccurence: Element): void {
-            wemjq(inputOccurence.getHTMLElement()).find('.cke_button__code').appendTo(
+        private moveButtonToBottomBar(inputOccurence: Element, buttonClass: string): void {
+            wemjq(inputOccurence.getHTMLElement()).find(buttonClass).appendTo(
                 wemjq(inputOccurence.getHTMLElement()).find('.cke_bottom'));
         }
 
@@ -345,7 +341,7 @@ module api.form.inputtype.text {
             }
         }
 
-        private getEditor(editorId: string): editor {
+        private getEditor(editorId: string): HTMLAreaEditor {
             return CKEDITOR.instances[editorId];
         }
 
@@ -356,7 +352,7 @@ module api.form.inputtype.text {
         }
 
         private setEditorContent(editorId: string, property: Property): void {
-            const editor = this.getEditor(editorId);
+            const editor: HTMLAreaEditor = this.getEditor(editorId);
             if (editor) {
                 editor.setData(property.hasNonNullValue() ? HTMLAreaHelper.prepareImgSrcsInValueForEdit(property.getString()) : '');
                 //HTMLAreaHelper.updateImageAlignmentBehaviour(editor);

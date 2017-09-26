@@ -2,7 +2,7 @@ module api.util.htmlarea.editor {
 
     import CreateHtmlAreaDialogEvent = api.util.htmlarea.dialog.CreateHtmlAreaDialogEvent;
     import ApplicationKey = api.application.ApplicationKey;
-    import editor = CKEDITOR.editor;
+    import HTMLAreaEditor = CKEDITOR.editor;
     import config = CKEDITOR.config;
 
     export class HTMLAreaBuilder {
@@ -162,7 +162,7 @@ module api.util.htmlarea.editor {
             }
         }
 
-        public createEditor(): editor {
+        public createEditor(): HTMLAreaEditor {
             this.checkRequiredFieldsAreSet();
 
             if (this.editableSourceCode && !this.isToolExcluded('Code')) {
@@ -181,7 +181,7 @@ module api.util.htmlarea.editor {
                 sharedSpaces: this.inline ? {top: this.fixedToolbarContainer} : null
             };
 
-            const ckeditor: editor =
+            const ckeditor: HTMLAreaEditor =
                 this.inline ? CKEDITOR.inline(this.editorContainerId, config) : CKEDITOR.replace(this.editorContainerId, config);
 
             ckeditor.on('change', (e) => {
@@ -407,7 +407,7 @@ module api.util.htmlarea.editor {
             this.publishCreateDialogEvent(event);
         }
 
-        private notifyCodeDialog(editor: editor) {
+        private notifyCodeDialog(editor: HTMLAreaEditor) {
             let event = CreateHtmlAreaDialogEvent.create().setConfig(editor).setType(
                 api.util.htmlarea.dialog.HtmlAreaDialogType.CODE).build();
             this.publishCreateDialogEvent(event);

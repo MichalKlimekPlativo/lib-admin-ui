@@ -3,7 +3,7 @@ module api.util.htmlarea.dialog {
     import TextArea = api.ui.text.TextArea;
     import Action = api.ui.Action;
     import i18n = api.util.i18n;
-    import editor = CKEDITOR.editor;
+    import HTMLAreaEditor = CKEDITOR.editor;
 
     export class CodeDialog extends ModalDialog {
 
@@ -11,7 +11,7 @@ module api.util.htmlarea.dialog {
 
         private okAction: Action;
 
-        constructor(editor: editor) {
+        constructor(editor: HTMLAreaEditor) {
             super(<HtmlAreaModalDialogConfig>{
                 editor: editor,
                 title: i18n('dialog.sourcecode.title'), cls: 'source-code-modal-dialog',
