@@ -177,7 +177,7 @@ module api.util.htmlarea.editor {
                 removeButtons: this.toolsToExlcude,
                 extraPlugins: this.plugins + (this.inline ? ',sharedspace' : ''),
                 autoGrow_onStartup: true,
-                contentsCss: this.assetsUri + '/common/styles/api/util/htmlarea/html-editor.css', // for classic mode only
+                contentsCss: this.assetsUri + '/admin/common/styles/api/util/htmlarea/html-editor.css', // for classic mode only
                 sharedSpaces: this.inline ? {top: this.fixedToolbarContainer} : null
             };
 
@@ -219,7 +219,7 @@ module api.util.htmlarea.editor {
                 }
             });
 
-            CKEDITOR.plugins.addExternal('code', this.assetsUri + '/common/js/util/htmlarea/plugins/', 'code.js');
+            CKEDITOR.plugins.addExternal('code', this.assetsUri + '/admin/common/js/util/htmlarea/plugins/', 'code.js');
 
             return ckeditor;
 
