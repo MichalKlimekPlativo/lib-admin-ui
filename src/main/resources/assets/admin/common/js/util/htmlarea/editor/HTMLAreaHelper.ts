@@ -1,4 +1,4 @@
-module api.util.htmlarea.editor {
+namespace api.util.htmlarea.editor {
     import ImageModalDialog = api.util.htmlarea.dialog.ImageModalDialog;
     import StringHelper = api.util.StringHelper;
 

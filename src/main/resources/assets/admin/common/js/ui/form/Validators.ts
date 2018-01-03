@@ -1,4 +1,4 @@
-module api.ui.form {
+namespace api.ui.form {
     import i18n = api.util.i18n;
 
     export class Validators {

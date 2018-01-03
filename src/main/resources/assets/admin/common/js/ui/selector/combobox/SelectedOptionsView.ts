@@ -1,4 +1,4 @@
-module api.ui.selector.combobox {
+namespace api.ui.selector.combobox {
 
     export interface SelectedOptionsView<T> extends api.dom.DivEl {
 

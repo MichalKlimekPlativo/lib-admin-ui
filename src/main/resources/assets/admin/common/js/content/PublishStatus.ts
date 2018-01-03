@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     export enum PublishStatus {
         ONLINE, PENDING, EXPIRED

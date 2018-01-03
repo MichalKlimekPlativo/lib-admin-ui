@@ -1,4 +1,4 @@
-module api.app.remove {
+namespace api.app.remove {
 
     export class DeleteItem {
 

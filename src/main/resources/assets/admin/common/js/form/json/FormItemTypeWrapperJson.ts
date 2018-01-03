@@ -1,4 +1,4 @@
-module api.form.json {
+namespace api.form.json {
 
     export interface FormItemTypeWrapperJson {
 

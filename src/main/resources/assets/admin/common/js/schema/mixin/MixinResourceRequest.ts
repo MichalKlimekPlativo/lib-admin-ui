@@ -1,4 +1,4 @@
-module api.schema.mixin {
+namespace api.schema.mixin {
 
     export class MixinResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
         private resourceUrl: api.rest.Path;

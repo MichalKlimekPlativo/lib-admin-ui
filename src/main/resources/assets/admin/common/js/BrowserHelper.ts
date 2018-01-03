@@ -1,4 +1,4 @@
-module api {
+namespace api {
 
     enum BrowserName {
         CHROME, FIREFOX, OPERA, SAFARI, MSIE, TRIDENT

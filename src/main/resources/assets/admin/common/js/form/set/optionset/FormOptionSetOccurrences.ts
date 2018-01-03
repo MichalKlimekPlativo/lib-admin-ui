@@ -1,4 +1,4 @@
-module api.form {
+namespace api.form {
     import PropertyArray = api.data.PropertyArray;
 
     export interface FormOptionSetOccurrencesConfig {

@@ -1,4 +1,4 @@
-module api.ui.selector.combobox {
+namespace api.ui.selector.combobox {
 
     import NamesAndIconView = api.app.NamesAndIconView;
     export class RichSelectedOptionView<T> extends api.ui.selector.combobox.BaseSelectedOptionView<T> {

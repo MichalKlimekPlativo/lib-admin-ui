@@ -1,4 +1,4 @@
-module api.notify {
+namespace api.notify {
 
     export class NotifyOpts {
         message: string;

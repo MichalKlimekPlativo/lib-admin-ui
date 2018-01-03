@@ -1,4 +1,4 @@
-module api.query.filter {
+namespace api.query.filter {
 
     export class RangeFilter extends api.query.filter.Filter {
 

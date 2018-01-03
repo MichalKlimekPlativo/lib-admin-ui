@@ -1,4 +1,4 @@
-module FormItemSetSpec {
+namespace FormItemSetSpec {
 
     import FormItemSet = api.form.FormItemSet;
     import FormItemSetJson = api.form.json.FormItemSetJson;

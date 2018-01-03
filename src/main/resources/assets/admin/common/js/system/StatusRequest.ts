@@ -1,4 +1,4 @@
-module api.system {
+namespace api.system {
 
     export class StatusRequest extends api.rest.ResourceRequest<StatusJson, StatusResult> {
 

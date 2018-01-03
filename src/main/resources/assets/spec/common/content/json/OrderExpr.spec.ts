@@ -1,4 +1,4 @@
-module OrderExprSpec {
+namespace OrderExprSpec {
 
     import OrderExpr = api.content.order.OrderExpr;
     import OrderExprBuilder = api.content.order.OrderExprBuilder;

@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     import ContentTypeName = api.schema.content.ContentTypeName;
     import Property = api.data.Property;

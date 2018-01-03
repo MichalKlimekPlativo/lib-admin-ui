@@ -1,4 +1,4 @@
-module api.ui.text {
+namespace api.ui.text {
 
     import InputEl = api.dom.InputEl;
     import StringHelper = api.util.StringHelper;

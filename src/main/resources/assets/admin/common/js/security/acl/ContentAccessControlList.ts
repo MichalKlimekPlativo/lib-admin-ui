@@ -1,4 +1,4 @@
-module api.security.acl {
+namespace api.security.acl {
 
     import ContentsPermissionsEntryJson = api.content.json.ContentPermissionsJson;
 

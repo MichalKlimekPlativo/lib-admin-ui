@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     import ContentServerEvent = api.content.event.ContentServerEvent;
     import BatchContentServerEvent = api.content.event.BatchContentServerEvent;

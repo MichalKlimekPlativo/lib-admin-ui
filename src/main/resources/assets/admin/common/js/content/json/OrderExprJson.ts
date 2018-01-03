@@ -1,4 +1,4 @@
-module api.content.json {
+namespace api.content.json {
 
     export interface OrderExprJson {
         direction: string;

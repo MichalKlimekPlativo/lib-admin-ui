@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import BatchContentResult = api.content.resource.result.BatchContentResult;
     import ContentSummaryJson = api.content.json.ContentSummaryJson;

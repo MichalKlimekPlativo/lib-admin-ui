@@ -1,4 +1,4 @@
-module api.ui.grid {
+namespace api.ui.grid {
 
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;
 

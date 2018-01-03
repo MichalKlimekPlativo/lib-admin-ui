@@ -1,4 +1,4 @@
-module api.form.inputtype.text {
+namespace api.form.inputtype.text {
     declare var CONFIG;
 
     import support = api.form.inputtype.support;

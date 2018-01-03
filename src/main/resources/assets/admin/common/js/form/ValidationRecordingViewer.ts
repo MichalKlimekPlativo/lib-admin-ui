@@ -1,4 +1,4 @@
-module api.form {
+namespace api.form {
     import i18n = api.util.i18n;
 
     export class ValidationRecordingViewer extends api.ui.Viewer<ValidationRecording> {

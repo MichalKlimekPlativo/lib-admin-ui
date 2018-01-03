@@ -1,4 +1,4 @@
-module api.content.event {
+namespace api.content.event {
 
     export class ContentServerEvent extends api.event.NodeServerEvent {
 

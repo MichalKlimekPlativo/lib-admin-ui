@@ -1,4 +1,4 @@
-module api.query {
+namespace api.query {
 
     import ValueExpr = api.query.expr.ValueExpr;
     import FunctionExpr = api.query.expr.FunctionExpr;

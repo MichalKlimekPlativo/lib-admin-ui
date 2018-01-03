@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class GetWidgetsByInterfaceRequest extends WidgetDescriptorResourceRequest<api.content.json.WidgetDescriptorJson[], any> {
 

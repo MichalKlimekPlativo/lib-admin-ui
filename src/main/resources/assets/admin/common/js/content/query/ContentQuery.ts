@@ -1,4 +1,4 @@
-module api.content.query {
+namespace api.content.query {
 
     export class ContentQuery implements api.Equitable {
 

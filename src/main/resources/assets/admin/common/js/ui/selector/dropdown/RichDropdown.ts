@@ -1,4 +1,4 @@
-module api.ui.selector.dropdown {
+namespace api.ui.selector.dropdown {
 
     import LoadedDataEvent = api.util.loader.event.LoadedDataEvent;
     import i18n = api.util.i18n;

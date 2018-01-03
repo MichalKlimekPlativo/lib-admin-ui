@@ -1,4 +1,4 @@
-module api.app.wizard {
+namespace api.app.wizard {
 
     import Toolbar = api.ui.toolbar.Toolbar;
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;

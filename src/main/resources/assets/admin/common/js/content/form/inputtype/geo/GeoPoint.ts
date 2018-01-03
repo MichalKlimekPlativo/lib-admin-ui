@@ -1,4 +1,4 @@
-module api.content.form.inputtype.geo {
+namespace api.content.form.inputtype.geo {
 
     import support = api.form.inputtype.support;
 

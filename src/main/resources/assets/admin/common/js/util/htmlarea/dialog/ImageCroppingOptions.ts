@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import Option = api.ui.selector.Option;
     import i18n = api.util.i18n;

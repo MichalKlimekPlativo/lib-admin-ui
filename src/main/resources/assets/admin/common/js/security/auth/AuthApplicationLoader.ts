@@ -1,4 +1,4 @@
-module api.security.auth {
+namespace api.security.auth {
 
     import BaseLoader = api.util.loader.BaseLoader;
     import ApplicationListResult = api.application.ApplicationListResult;

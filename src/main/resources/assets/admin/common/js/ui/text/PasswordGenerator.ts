@@ -1,4 +1,4 @@
-module api.ui.text {
+namespace api.ui.text {
 
     import StringHelper = api.util.StringHelper;
     import NumberHelper = api.util.NumberHelper;

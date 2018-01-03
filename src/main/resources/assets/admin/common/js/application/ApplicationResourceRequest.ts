@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export class FindPrincipalsRequest extends api.security.SecurityResourceRequest<FindPrincipalsResultJson, FindPrincipalsResult> {
 

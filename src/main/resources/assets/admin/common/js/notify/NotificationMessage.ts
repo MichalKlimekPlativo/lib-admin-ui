@@ -1,4 +1,4 @@
-module api.notify {
+namespace api.notify {
 
     export class NotificationMessage extends api.dom.DivEl {
 

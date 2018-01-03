@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     import ApplicationKey = api.application.ApplicationKey;
 

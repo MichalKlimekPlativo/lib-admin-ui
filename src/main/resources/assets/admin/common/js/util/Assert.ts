@@ -1,4 +1,4 @@
-module api.util {
+namespace api.util {
 
     export function assert(expression: boolean, message?: string) {
         if (!expression) {

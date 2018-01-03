@@ -1,4 +1,4 @@
-module api.security.form {
+namespace api.security.form {
 
     export class SecurityFormContext
         extends api.form.FormContext {

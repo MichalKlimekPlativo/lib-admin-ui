@@ -1,4 +1,4 @@
-module api.ui.panel {
+namespace api.ui.panel {
 
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;
 

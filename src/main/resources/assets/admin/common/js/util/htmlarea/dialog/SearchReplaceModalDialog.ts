@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import FormItem = api.ui.form.FormItem;
     import InputAlignment = api.ui.InputAlignment;

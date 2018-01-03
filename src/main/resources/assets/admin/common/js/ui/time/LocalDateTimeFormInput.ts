@@ -1,4 +1,4 @@
-module api.form {
+namespace api.form {
 
     import DateTimePickerBuilder = api.ui.time.DateTimePickerBuilder;
     import DateTimePicker = api.ui.time.DateTimePicker;

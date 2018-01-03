@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export enum ApplicationEventType {
         INSTALLED, UNINSTALLED, RESOLVED, STARTING, STARTED, UPDATED, STOPPING, STOPPED, UNRESOLVED, PROGRESS

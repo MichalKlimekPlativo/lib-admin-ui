@@ -1,4 +1,4 @@
-module api.form.inputtype.support {
+namespace api.form.inputtype.support {
     import PropertyArray = api.data.PropertyArray;
     import Value = api.data.Value;
     import ValueType = api.data.ValueType;

@@ -1,4 +1,4 @@
-module api.ui.panel {
+namespace api.ui.panel {
 
     /**
      * Use Panel when you need a container that needs 100% height.

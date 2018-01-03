@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     import Viewer = api.ui.Viewer;
     import GridColumn = api.ui.grid.GridColumn;

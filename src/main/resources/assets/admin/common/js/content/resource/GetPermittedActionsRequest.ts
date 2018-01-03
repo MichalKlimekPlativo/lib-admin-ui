@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
     import Permission = api.security.acl.Permission;
 
     export class GetPermittedActionsRequest extends ContentResourceRequest<string[], Permission[]> {

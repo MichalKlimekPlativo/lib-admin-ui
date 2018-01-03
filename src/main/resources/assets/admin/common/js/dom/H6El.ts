@@ -1,4 +1,4 @@
-module api.dom {
+namespace api.dom {
 
     export class H6El extends Element {
 

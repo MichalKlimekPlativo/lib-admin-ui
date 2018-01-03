@@ -1,4 +1,4 @@
-module api.content.form.inputtype.image {
+namespace api.content.form.inputtype.image {
 
     import Property = api.data.Property;
     import PropertyArray = api.data.PropertyArray;

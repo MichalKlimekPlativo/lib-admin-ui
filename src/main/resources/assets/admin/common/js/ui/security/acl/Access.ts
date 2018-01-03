@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
     import i18n = api.util.i18n;
 
     declare var CONFIG;

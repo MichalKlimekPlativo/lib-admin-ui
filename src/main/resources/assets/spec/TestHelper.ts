@@ -1,4 +1,4 @@
-module FormOptionSetSpec {
+namespace FormOptionSetSpec {
 
     import Element = api.dom.Element;
 

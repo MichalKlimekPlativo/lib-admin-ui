@@ -1,4 +1,4 @@
-module api.form.inputtype.text {
+namespace api.form.inputtype.text {
 
     import support = api.form.inputtype.support;
     import i18n = api.util.i18n;

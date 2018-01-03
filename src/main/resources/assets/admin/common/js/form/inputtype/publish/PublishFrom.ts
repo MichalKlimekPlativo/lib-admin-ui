@@ -1,4 +1,4 @@
-module api.content.form.inputtype.publish {
+namespace api.content.form.inputtype.publish {
 
     /**
      * Uses [[api.data.ValueType]] [[api.data.ValueTypeLocalDateTime]].

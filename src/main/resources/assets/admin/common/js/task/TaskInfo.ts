@@ -1,4 +1,4 @@
-module api.task {
+namespace api.task {
 
     export class TaskInfo {
 

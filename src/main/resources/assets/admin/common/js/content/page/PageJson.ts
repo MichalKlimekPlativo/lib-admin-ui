@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export interface PageJson {
 

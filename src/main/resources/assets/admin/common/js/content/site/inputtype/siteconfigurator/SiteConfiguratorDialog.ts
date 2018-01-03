@@ -1,4 +1,4 @@
-module api.content.site.inputtype.siteconfigurator {
+namespace api.content.site.inputtype.siteconfigurator {
     import FormView = api.form.FormView;
     import InputView = api.form.InputView;
     import ContentSelector = api.content.form.inputtype.contentselector.ContentSelector;

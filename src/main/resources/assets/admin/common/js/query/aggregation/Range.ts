@@ -1,4 +1,4 @@
-module api.query.aggregation {
+namespace api.query.aggregation {
 
     export class Range {
 

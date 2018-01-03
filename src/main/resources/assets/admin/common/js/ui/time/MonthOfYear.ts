@@ -1,4 +1,4 @@
-module api.ui.time {
+namespace api.ui.time {
 
     export class MonthOfYear implements api.Equitable {
 

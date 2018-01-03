@@ -1,4 +1,4 @@
-module FormOptionSetSpec {
+namespace FormOptionSetSpec {
 
     import FormOptionSet = api.form.FormOptionSet;
     import FormOptionSetJson = api.form.json.FormOptionSetJson;

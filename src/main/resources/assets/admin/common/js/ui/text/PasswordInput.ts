@@ -1,4 +1,4 @@
-module api.ui.text {
+namespace api.ui.text {
 
     export class PasswordInput extends api.dom.InputEl {
 

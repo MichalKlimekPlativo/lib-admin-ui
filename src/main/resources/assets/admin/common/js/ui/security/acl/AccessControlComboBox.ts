@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
 
     import Option = api.ui.selector.Option;
     import SelectedOption = api.ui.selector.combobox.SelectedOption;

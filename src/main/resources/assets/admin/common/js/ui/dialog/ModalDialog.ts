@@ -1,4 +1,4 @@
-module api.ui.dialog {
+namespace api.ui.dialog {
 
     import DivEl = api.dom.DivEl;
     import Action = api.ui.Action;

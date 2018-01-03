@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
 
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;
     import ResponsiveRanges = api.ui.responsive.ResponsiveRanges;

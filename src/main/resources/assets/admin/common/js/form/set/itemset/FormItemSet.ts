@@ -1,4 +1,4 @@
-module api.form {
+namespace api.form {
 
     /**
      * A set of [[FormItem]]s.

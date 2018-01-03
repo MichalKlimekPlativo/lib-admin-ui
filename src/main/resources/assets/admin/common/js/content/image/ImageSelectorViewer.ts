@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     export class ImageSelectorViewer
         extends api.ui.NamesAndIconViewer<ImageTreeSelectorItem> {

@@ -1,4 +1,4 @@
-module api.schema {
+namespace api.schema {
 
     export interface SchemaJson extends api.item.ItemJson {
 

@@ -1,4 +1,4 @@
-module api.ui.geo {
+namespace api.ui.geo {
 
     export class GeoPoint extends api.ui.text.TextInput {
 

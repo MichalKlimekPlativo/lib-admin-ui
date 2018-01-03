@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     import Form = api.form.Form;
     import FormBuilder = api.form.FormBuilder;

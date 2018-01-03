@@ -1,4 +1,4 @@
-module api.macro.resource {
+namespace api.macro.resource {
 
     import ApplicationKey = api.application.ApplicationKey;
 

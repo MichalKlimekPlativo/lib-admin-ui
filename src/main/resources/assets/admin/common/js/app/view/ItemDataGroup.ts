@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
 
     import SpanEl = api.dom.SpanEl;
     import StringHelper = api.util.StringHelper;

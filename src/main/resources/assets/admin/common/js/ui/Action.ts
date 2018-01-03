@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     type ExecutionListener = {(action: Action): wemQ.Promise<any>|void};
 

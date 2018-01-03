@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
 
     export class ItemStatisticsHeader<M extends api.Equitable> extends api.dom.DivEl {
 

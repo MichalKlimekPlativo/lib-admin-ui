@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     import LoadMask = api.ui.mask.LoadMask;
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;

@@ -1,6 +1,6 @@
 declare var qq;
 
-module api.ui.uploader {
+namespace api.ui.uploader {
 
     import Button = api.ui.button.Button;
     import Element = api.dom.Element;

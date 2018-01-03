@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     /**
      * Request representing either a create, update or delete Request for a Page.

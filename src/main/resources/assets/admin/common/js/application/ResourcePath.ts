@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ResourcePath extends api.util.BasePath<ResourcePath> {
 

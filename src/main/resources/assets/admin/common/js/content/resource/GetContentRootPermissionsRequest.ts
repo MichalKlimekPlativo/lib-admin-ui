@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import AccessControlList = api.security.acl.AccessControlList;
     import PermissionsJson = api.content.json.PermissionsJson;

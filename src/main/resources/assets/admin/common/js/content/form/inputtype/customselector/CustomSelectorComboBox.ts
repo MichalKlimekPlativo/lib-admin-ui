@@ -1,4 +1,4 @@
-module api.content.form.inputtype.customselector {
+namespace api.content.form.inputtype.customselector {
 
     import RichComboBox = api.ui.selector.combobox.RichComboBox;
     import BaseSelectedOptionsView = api.ui.selector.combobox.BaseSelectedOptionsView;

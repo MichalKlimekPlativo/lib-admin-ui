@@ -1,4 +1,4 @@
-module api.content.site.inputtype.siteconfigurator {
+namespace api.content.site.inputtype.siteconfigurator {
 
     import PropertyTree = api.data.PropertyTree;
     import Option = api.ui.selector.Option;

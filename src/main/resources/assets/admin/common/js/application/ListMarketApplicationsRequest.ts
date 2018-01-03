@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     import MarketApplicationsListJson = api.application.json.MarketApplicationsListJson;
 

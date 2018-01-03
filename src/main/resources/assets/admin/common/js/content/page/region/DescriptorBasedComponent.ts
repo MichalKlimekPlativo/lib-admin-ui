@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     import PropertyTree = api.data.PropertyTree;
     import PropertyEvent = api.data.PropertyEvent;

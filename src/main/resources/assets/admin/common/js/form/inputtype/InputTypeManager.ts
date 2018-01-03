@@ -1,4 +1,4 @@
-module api.form.inputtype {
+namespace api.form.inputtype {
 
     /**
      *      Class to manage input types and their visual representation

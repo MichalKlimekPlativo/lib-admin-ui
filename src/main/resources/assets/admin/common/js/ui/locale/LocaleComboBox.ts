@@ -1,4 +1,4 @@
-module api.ui.locale {
+namespace api.ui.locale {
 
     import Option = api.ui.selector.Option;
     import Locale = api.locale.Locale;

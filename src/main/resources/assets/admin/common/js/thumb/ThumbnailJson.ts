@@ -1,4 +1,4 @@
-module api.thumb {
+namespace api.thumb {
 
     export interface ThumbnailJson {
 

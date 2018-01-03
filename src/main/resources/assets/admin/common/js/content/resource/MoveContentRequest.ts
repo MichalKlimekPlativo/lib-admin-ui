@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import TaskIdJson = api.task.TaskIdJson;
     import TaskId = api.task.TaskId;

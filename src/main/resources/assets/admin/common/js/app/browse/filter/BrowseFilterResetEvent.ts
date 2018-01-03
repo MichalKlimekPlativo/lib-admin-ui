@@ -1,4 +1,4 @@
-module api.app.browse.filter {
+namespace api.app.browse.filter {
 
     export class BrowseFilterResetEvent extends api.event.Event {
 

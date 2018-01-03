@@ -1,4 +1,4 @@
-module api.content.button {
+namespace api.content.button {
 
     import TogglerButton = api.ui.button.TogglerButton;
     import Tooltip = api.ui.Tooltip;

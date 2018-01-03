@@ -1,4 +1,4 @@
-module api.ui.menu {
+namespace api.ui.menu {
 
     export class MenuItem extends api.dom.LiEl {
 

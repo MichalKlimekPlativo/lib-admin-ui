@@ -1,4 +1,4 @@
-module api.security.event {
+namespace api.security.event {
 
     import NodeServerChangeType = api.event.NodeServerChangeType;
 

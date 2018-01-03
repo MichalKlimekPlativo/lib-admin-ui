@@ -1,7 +1,7 @@
 import ContentId = api.content.ContentId;
 import AccessControlList = api.security.acl.AccessControlList;
 import Content = api.content.Content;
-module api.content.event {
+namespace api.content.event {
 
     export class OpenEditPermissionsDialogEvent extends api.event.Event {
 

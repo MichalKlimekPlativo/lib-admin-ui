@@ -1,4 +1,4 @@
-module FormOptionSetViewSpec {
+namespace FormOptionSetViewSpec {
 
     import FormOptionSet = api.form.FormOptionSet;
     import FormOptionSetView = api.form.FormOptionSetView;

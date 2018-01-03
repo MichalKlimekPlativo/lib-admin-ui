@@ -1,4 +1,4 @@
-module api.site.json {
+namespace api.site.json {
 
     export interface SiteDescriptorJson {
 

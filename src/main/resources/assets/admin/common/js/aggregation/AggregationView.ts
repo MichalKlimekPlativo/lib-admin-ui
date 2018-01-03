@@ -1,4 +1,4 @@
-module api.aggregation {
+namespace api.aggregation {
 
     export class AggregationView extends api.dom.DivEl {
 

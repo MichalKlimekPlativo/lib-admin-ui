@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationBasedName implements api.Equitable {
         static SEPARATOR: string = ':';

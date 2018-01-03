@@ -1,4 +1,4 @@
-module api.ui.button {
+namespace api.ui.button {
 
     export class CycleButton extends api.ui.button.Button {
 

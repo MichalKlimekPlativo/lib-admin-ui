@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationLoader
         extends api.util.loader.BaseLoader<ApplicationListResult, Application> {

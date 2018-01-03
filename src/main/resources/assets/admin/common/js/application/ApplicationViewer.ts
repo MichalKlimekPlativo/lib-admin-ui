@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
     import ApplicationUploadMock = api.application.ApplicationUploadMock;
 
     export class ApplicationViewer extends api.ui.NamesAndIconViewer<Application> {

@@ -1,4 +1,4 @@
-module api.content.order {
+namespace api.content.order {
 
     import ReorderChildContentJson =  api.content.json.ReorderChildContentJson;
 

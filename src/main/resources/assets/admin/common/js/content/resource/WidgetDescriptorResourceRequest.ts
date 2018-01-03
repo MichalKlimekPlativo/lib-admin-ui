@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class WidgetDescriptorResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

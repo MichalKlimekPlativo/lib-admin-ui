@@ -1,4 +1,4 @@
-module api.task {
+namespace api.task {
 
     export class TaskResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

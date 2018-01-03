@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     import ElementHelper = api.dom.ElementHelper;
     import TreeNode = api.ui.treegrid.TreeNode;

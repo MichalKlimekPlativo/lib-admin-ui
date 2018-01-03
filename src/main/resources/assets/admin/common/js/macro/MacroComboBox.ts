@@ -1,4 +1,4 @@
-module api.macro {
+namespace api.macro {
 
     import SelectedOption = api.ui.selector.combobox.SelectedOption;
     import Option = api.ui.selector.Option;

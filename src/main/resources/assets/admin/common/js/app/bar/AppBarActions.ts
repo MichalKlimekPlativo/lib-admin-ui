@@ -1,4 +1,4 @@
-module api.app.bar {
+namespace api.app.bar {
 
     export class AppBarActions {
 

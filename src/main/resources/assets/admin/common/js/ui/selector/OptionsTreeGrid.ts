@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
     import TreeNode = api.ui.treegrid.TreeNode;
     import TreeGrid = api.ui.treegrid.TreeGrid;
     import TreeGridBuilder = api.ui.treegrid.TreeGridBuilder;

@@ -1,4 +1,4 @@
-module api.ui.selector.list {
+namespace api.ui.selector.list {
 
     export class ListBox<I>
         extends api.dom.UlEl {

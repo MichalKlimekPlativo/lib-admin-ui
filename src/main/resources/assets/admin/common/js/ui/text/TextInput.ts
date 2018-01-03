@@ -1,4 +1,4 @@
-module api.ui.text {
+namespace api.ui.text {
 
     export class TextInput extends api.dom.InputEl {
 

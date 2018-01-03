@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import ContentTypeSummary = api.schema.content.ContentTypeSummary;
 

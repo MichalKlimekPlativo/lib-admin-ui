@@ -1,4 +1,4 @@
-module api.ui.grid {
+namespace api.ui.grid {
 
     export class GridOptionsBuilder<T extends Slick.SlickData> {
 

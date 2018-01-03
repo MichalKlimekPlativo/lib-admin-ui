@@ -1,4 +1,4 @@
-module api.ui.button {
+namespace api.ui.button {
     import Menu = api.ui.menu.Menu;
     import MenuItem = api.ui.menu.MenuItem;
 

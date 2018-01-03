@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     export class GetContentTypeByNameRequest extends ContentTypeResourceRequest<ContentTypeJson, ContentType> {
 

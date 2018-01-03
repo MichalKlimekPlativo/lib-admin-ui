@@ -1,4 +1,4 @@
-module api.ui.form {
+namespace api.ui.form {
     export class Fieldset extends api.dom.FieldsetEl {
 
         private legend: api.dom.LegendEl;

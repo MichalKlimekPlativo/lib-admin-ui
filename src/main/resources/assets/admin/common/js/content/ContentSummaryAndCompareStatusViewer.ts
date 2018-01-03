@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     export class ContentSummaryAndCompareStatusViewer extends api.ui.NamesAndIconViewer<ContentSummaryAndCompareStatus> {
 

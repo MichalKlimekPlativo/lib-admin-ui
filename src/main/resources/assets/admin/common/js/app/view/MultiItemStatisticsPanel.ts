@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
 
     export class MultiItemStatisticsPanel<M extends api.Equitable> extends ItemStatisticsPanel<M> {
 

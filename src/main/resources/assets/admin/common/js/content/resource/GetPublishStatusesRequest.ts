@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import GetPublishStatusesResult = api.content.resource.result.GetPublishStatusesResult;
     import GetPublishStatusesResultJson = api.content.json.GetPublishStatusesResultJson;

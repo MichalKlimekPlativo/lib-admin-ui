@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import i18n = api.util.i18n;
 

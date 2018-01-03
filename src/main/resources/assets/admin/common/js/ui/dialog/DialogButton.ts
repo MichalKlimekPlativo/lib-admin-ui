@@ -1,4 +1,4 @@
-module api.ui.dialog {
+namespace api.ui.dialog {
 
     export class DialogButton extends api.ui.button.ActionButton {
 

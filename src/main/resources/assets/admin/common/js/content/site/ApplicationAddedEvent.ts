@@ -1,4 +1,4 @@
-module api.content.site {
+namespace api.content.site {
     export class ApplicationAddedEvent {
 
         private siteConfig: SiteConfig;

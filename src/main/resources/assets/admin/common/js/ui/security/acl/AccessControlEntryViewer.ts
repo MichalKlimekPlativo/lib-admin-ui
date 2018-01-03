@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
 
     import PrincipalType = api.security.PrincipalType;
     import AccessControlEntry = api.security.acl.AccessControlEntry;

@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
 
     export class ValueTypeConverter {
 

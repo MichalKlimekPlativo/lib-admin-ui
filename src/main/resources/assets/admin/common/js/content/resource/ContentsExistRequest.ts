@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ContentsExistJson = api.content.json.ContentsExistJson;
     import ContentsExistResult = api.content.resource.result.ContentsExistResult;

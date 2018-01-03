@@ -1,4 +1,4 @@
-module api.content.site.inputtype.siteconfigurator {
+namespace api.content.site.inputtype.siteconfigurator {
 
     import Application = api.application.Application;
     import ApplicationKey = api.application.ApplicationKey;

@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import QueryField = api.query.QueryField;
     import OrderExpr = api.query.expr.OrderExpr;

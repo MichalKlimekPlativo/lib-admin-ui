@@ -1,4 +1,4 @@
-module api.content.form {
+namespace api.content.form {
 
     import PropertyPath = api.data.PropertyPath;
     import FormState = api.app.wizard.FormState;

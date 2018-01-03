@@ -1,4 +1,4 @@
-module api.schema.mixin {
+namespace api.schema.mixin {
 
     export class Mixin extends api.schema.Schema implements api.Equitable {
 

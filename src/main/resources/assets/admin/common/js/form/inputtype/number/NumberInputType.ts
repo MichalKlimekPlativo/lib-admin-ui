@@ -1,4 +1,4 @@
-module api.content.form.inputtype.number {
+namespace api.content.form.inputtype.number {
 
     import BaseInputTypeNotManagingAdd = api.form.inputtype.support.BaseInputTypeNotManagingAdd;
     import NumberHelper = api.util.NumberHelper;

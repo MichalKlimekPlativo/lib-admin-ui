@@ -1,4 +1,4 @@
-module FormItemSetViewSpec {
+namespace FormItemSetViewSpec {
 
     import FormItemSet = api.form.FormItemSet;
     import FormItemSetView = api.form.FormItemSetView;

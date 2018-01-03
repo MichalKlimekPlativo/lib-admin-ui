@@ -1,4 +1,4 @@
-module api.ui.treegrid.actions {
+namespace api.ui.treegrid.actions {
 
     import DivEl = api.dom.DivEl;
     import i18n = api.util.i18n;

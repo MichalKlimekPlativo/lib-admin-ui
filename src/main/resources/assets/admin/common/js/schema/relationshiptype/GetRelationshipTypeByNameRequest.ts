@@ -1,4 +1,4 @@
-module api.schema.relationshiptype {
+namespace api.schema.relationshiptype {
 
     export class GetRelationshipTypeByNameRequest extends RelationshipTypeResourceRequest<RelationshipTypeJson, RelationshipType> {
 

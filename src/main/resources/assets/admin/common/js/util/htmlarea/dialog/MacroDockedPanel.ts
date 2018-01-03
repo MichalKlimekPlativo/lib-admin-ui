@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import MacroDescriptor = api.macro.MacroDescriptor;
     import MacroPreview = api.macro.MacroPreview;

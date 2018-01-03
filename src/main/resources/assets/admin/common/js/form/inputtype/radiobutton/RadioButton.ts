@@ -1,4 +1,4 @@
-module api.form.inputtype.radiobutton {
+namespace api.form.inputtype.radiobutton {
 
     import Property = api.data.Property;
     import Value = api.data.Value;

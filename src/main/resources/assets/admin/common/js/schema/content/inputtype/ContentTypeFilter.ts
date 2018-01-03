@@ -1,4 +1,4 @@
-module api.schema.content.inputtype {
+namespace api.schema.content.inputtype {
 
     import ContentInputTypeViewContext = api.content.form.inputtype.ContentInputTypeViewContext;
     import PropertyArray = api.data.PropertyArray;

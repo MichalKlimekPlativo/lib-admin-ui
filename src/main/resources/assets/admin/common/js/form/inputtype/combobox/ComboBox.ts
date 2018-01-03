@@ -1,4 +1,4 @@
-module api.form.inputtype.combobox {
+namespace api.form.inputtype.combobox {
 
     import PropertyArray = api.data.PropertyArray;
     import Value = api.data.Value;

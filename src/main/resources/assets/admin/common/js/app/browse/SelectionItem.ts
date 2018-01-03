@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
 
     export class SelectionItem<M extends api.Equitable>
         extends api.dom.DivEl {

@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
     import AccessControlEntry = api.security.acl.AccessControlEntry;
 
     export class AccessControlListView extends api.ui.selector.list.ListBox<AccessControlEntry> {

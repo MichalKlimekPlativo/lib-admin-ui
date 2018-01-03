@@ -1,4 +1,4 @@
-module api.content.resource.result {
+namespace api.content.resource.result {
     import ResolvePublishContentResultJson = api.content.json.ResolvePublishContentResultJson;
 
     export class ResolvePublishDependenciesResult {

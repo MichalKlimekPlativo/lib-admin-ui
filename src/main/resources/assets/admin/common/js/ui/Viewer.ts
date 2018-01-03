@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     /**
      * An abstract class capable of viewing a given object.

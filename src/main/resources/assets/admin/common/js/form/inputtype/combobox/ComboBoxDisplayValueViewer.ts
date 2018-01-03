@@ -1,4 +1,4 @@
-module api.form.inputtype.combobox {
+namespace api.form.inputtype.combobox {
 
     export class ComboBoxDisplayValueViewer extends api.ui.Viewer<string> {
 

@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationCaches<CACHE extends api.cache.Cache<any,any>> {
 

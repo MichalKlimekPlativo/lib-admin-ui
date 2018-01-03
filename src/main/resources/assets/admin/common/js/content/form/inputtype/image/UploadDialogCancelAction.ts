@@ -1,4 +1,4 @@
-module api.content.form.inputtype.image {
+namespace api.content.form.inputtype.image {
 
     export class UploadDialogCancelAction extends api.ui.Action {
 

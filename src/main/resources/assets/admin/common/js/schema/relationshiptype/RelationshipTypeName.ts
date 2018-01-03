@@ -1,4 +1,4 @@
-module api.schema.relationshiptype {
+namespace api.schema.relationshiptype {
 
     import ApplicationKey = api.application.ApplicationKey;
     import ApplicationBasedName = api.application.ApplicationBasedName;

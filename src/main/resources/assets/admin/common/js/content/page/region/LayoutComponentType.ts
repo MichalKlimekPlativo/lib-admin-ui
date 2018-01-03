@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     export class LayoutComponentType extends ComponentType {
 

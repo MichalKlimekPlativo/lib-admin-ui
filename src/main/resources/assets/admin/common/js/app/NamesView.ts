@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     export class NamesView extends api.dom.DivEl {
 

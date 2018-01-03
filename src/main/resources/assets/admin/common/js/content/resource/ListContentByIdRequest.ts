@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ListContentResult = api.content.resource.result.ListContentResult;
     import ContentResponse = api.content.resource.result.ContentResponse;

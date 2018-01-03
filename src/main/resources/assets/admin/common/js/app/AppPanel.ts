@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     export class AppPanel<M extends api.Equitable>
         extends api.ui.panel.DeckPanel {

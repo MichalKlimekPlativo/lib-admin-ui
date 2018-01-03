@@ -1,4 +1,4 @@
-module api.content.form.inputtype.image {
+namespace api.content.form.inputtype.image {
 
     import ContentSummaryPreLoader = api.content.resource.ContentSummaryPreLoader;
     import ContentSelectorQueryRequest = api.content.resource.ContentSelectorQueryRequest;

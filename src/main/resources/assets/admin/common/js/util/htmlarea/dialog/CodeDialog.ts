@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
     import TextArea = api.ui.text.TextArea;
     import Action = api.ui.Action;
     import i18n = api.util.i18n;

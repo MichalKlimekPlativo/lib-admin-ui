@@ -1,4 +1,4 @@
-module api.ui.treegrid {
+namespace api.ui.treegrid {
 
     import Element = api.dom.Element;
     import ElementHelper = api.dom.ElementHelper;

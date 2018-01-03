@@ -1,4 +1,4 @@
-module api.content.form.inputtype.customselector {
+namespace api.content.form.inputtype.customselector {
 
     export class CustomSelectorItem {
 

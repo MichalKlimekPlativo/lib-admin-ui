@@ -1,4 +1,4 @@
-module api.content.form.inputtype {
+namespace api.content.form.inputtype {
 
     export interface ContentInputTypeViewContext extends api.form.inputtype.InputTypeViewContext {
 

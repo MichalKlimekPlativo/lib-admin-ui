@@ -1,4 +1,4 @@
-module api.util {
+namespace api.util {
 
     export class Reference implements api.Equitable {
 

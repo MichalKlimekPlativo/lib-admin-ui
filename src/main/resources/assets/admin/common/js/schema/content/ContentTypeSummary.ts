@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     import MixinNames = api.schema.mixin.MixinNames;
 

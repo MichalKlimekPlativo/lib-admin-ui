@@ -1,4 +1,4 @@
-module api.security.acl {
+namespace api.security.acl {
 
     import PermissionsJson = api.content.json.PermissionsJson;
     export class AccessControlList implements api.Equitable, api.Cloneable {

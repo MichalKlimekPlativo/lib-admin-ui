@@ -1,4 +1,4 @@
-module api.content.attachment {
+namespace api.content.attachment {
 
     export class Attachments implements api.Equitable {
 

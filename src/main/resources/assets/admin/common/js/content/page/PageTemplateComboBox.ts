@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export class PageTemplateComboBox extends api.ui.selector.combobox.RichComboBox<PageTemplate> {
 

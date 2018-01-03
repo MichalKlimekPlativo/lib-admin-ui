@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export interface AuthConfigJson {
         applicationKey: string;

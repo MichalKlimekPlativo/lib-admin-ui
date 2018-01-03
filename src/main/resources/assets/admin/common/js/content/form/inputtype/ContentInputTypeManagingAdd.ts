@@ -1,4 +1,4 @@
-module api.content.form.inputtype {
+namespace api.content.form.inputtype {
 
     import RichComboBox = api.ui.selector.combobox.RichComboBox;
     import RelationshipTypeName = api.schema.relationshiptype.RelationshipTypeName;

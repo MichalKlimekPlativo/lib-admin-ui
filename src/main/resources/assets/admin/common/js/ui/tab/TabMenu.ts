@@ -1,4 +1,4 @@
-module api.ui.tab {
+namespace api.ui.tab {
 
     import AppHelper = api.util.AppHelper;
 

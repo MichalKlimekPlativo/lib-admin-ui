@@ -1,4 +1,4 @@
-module api.content.util {
+namespace api.content.util {
 
     import TreeNode = api.ui.treegrid.TreeNode;
 

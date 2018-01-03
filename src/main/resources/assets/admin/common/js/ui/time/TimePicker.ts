@@ -1,4 +1,4 @@
-module api.ui.time {
+namespace api.ui.time {
 
     import DateHelper = api.util.DateHelper;
 

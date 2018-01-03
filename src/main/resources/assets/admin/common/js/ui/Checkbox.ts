@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     export class Checkbox extends api.dom.FormInputEl {
         //TODO: USE HTML CHECKED PROPERTY INSTEAD OF ATTRIBUTE CHECKED! from ljl

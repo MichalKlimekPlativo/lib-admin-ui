@@ -1,4 +1,4 @@
-module api.security.form.inputtype {
+namespace api.security.form.inputtype {
 
     export interface SecurityInputTypeViewContext
         extends api.form.inputtype.InputTypeViewContext {

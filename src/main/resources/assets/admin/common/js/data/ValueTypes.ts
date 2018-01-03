@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
 
     /*
      * Types need to be named as in ValueTypes.java

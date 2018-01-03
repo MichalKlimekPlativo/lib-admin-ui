@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import Attachments = api.content.attachment.Attachments;
     import AttachmentJson = api.content.attachment.AttachmentJson;

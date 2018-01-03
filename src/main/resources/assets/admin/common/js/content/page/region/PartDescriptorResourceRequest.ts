@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     export class PartDescriptorResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

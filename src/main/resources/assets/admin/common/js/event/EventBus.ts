@@ -1,4 +1,4 @@
-module api.event {
+namespace api.event {
 
     interface HandlersMapEntry {
         customEventHandler: (customEvent: any) => void;

@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     export enum RadioOrientation {
         VERTICAL,

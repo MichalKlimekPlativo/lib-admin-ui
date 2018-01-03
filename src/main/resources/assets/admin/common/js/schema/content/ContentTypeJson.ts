@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     export interface ContentTypeJson extends ContentTypeSummaryJson {
 

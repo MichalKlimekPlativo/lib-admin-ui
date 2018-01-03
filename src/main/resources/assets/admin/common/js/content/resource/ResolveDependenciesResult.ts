@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ContentDependencyJson = api.content.json.ContentDependencyJson;
 

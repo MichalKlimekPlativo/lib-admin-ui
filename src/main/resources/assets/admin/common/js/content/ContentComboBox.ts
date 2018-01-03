@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import SelectedOption = api.ui.selector.combobox.SelectedOption;
     import Option = api.ui.selector.Option;

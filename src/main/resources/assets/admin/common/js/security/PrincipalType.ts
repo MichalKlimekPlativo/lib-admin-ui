@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export enum PrincipalType {
         USER,

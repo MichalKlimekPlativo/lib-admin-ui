@@ -1,4 +1,4 @@
-module api.schema.mixin {
+namespace api.schema.mixin {
 
     export interface MixinListJson {
 

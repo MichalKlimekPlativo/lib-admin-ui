@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import ContentTypeName = api.schema.content.ContentTypeName;
     import ContentSummaryLoader = api.content.resource.ContentSummaryLoader;

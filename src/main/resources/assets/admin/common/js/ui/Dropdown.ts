@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     export class Dropdown extends api.dom.SelectEl {
 

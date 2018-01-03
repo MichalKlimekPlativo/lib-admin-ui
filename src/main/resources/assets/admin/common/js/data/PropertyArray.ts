@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
 
     /**
      * A PropertyArray manages an array of properties having the same: [[parent]], [[type]] and [[name]].

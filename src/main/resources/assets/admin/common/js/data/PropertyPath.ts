@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
 
     export class PropertyPath implements api.Equitable {
 

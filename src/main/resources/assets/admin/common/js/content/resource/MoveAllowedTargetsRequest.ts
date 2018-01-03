@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ConstraintExpr = api.query.expr.ConstraintExpr;
     import NotExpr = api.query.expr.NotExpr;

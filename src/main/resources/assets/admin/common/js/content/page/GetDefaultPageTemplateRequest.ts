@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export class GetDefaultPageTemplateRequest extends PageTemplateResourceRequest<api.content.json.ContentJson, PageTemplate> {
 

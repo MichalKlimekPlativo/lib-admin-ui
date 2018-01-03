@@ -1,4 +1,4 @@
-module api.content.order {
+namespace api.content.order {
 
     export class DynamicOrderExpr extends OrderExpr {
 

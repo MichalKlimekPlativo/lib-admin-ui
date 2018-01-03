@@ -1,4 +1,4 @@
-module api.content.util {
+namespace api.content.util {
 
     export class ExtraDataByMixinNameComparator implements api.Comparator<ExtraData> {
 

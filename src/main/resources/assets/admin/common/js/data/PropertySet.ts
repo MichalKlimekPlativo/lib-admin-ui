@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
     /* tslint:disable:max-line-length */
 
     import Reference = api.util.Reference;

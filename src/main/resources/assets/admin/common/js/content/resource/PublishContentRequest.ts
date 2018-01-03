@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class PublishContentRequest extends ContentResourceRequest<api.task.TaskIdJson, api.task.TaskId> {
 

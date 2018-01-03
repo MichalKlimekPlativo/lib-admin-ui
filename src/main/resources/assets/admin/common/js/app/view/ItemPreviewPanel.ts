@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
 
     export class ItemPreviewPanel extends api.ui.panel.Panel {
 

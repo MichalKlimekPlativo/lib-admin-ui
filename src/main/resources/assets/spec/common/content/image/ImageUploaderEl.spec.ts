@@ -1,4 +1,4 @@
-module ImageUploaderElSpec {
+namespace ImageUploaderElSpec {
 
     import ImageUploaderEl = api.content.image.ImageUploaderEl;
     import Spy = jasmine.Spy;

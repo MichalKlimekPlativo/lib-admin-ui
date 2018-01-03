@@ -1,4 +1,4 @@
-module api.ui.security {
+namespace api.ui.security {
 
     import Principal = api.security.Principal;
     import PrincipalType = api.security.PrincipalType;

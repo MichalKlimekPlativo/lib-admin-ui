@@ -1,4 +1,4 @@
-module api.ui.grid {
+namespace api.ui.grid {
 
     export interface GridColumnConfig {
         name: string;

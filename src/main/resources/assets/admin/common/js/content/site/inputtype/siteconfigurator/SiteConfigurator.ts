@@ -1,4 +1,4 @@
-module api.content.site.inputtype.siteconfigurator {
+namespace api.content.site.inputtype.siteconfigurator {
     import PropertyArray = api.data.PropertyArray;
     import FormView = api.form.FormView;
     import Value = api.data.Value;

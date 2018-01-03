@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ContentQuery = api.content.query.ContentQuery;
     import ContentQueryResult = api.content.resource.result.ContentQueryResult;

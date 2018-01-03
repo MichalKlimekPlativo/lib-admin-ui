@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     export class ImageErrorEvent extends api.event.Event {
 

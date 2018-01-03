@@ -1,4 +1,4 @@
-module ContentSummaryAndCompareStatusSpec {
+namespace ContentSummaryAndCompareStatusSpec {
 
     import ContentSummaryAndCompareStatus = api.content.ContentSummaryAndCompareStatus;
     import ContentSummary = api.content.ContentSummary;

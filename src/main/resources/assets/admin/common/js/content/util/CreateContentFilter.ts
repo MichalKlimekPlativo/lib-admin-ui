@@ -1,4 +1,4 @@
-module api.content.util {
+namespace api.content.util {
 
     import ApplicationKey = api.application.ApplicationKey;
     import ContentTypeSummary = api.schema.content.ContentTypeSummary;

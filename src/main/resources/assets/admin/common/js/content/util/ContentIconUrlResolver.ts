@@ -1,6 +1,6 @@
 import UriHelper = api.util.UriHelper;
 
-module api.content.util {
+namespace api.content.util {
 
     export class ContentIconUrlResolver extends api.icon.IconUrlResolver {
 

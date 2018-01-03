@@ -1,4 +1,4 @@
-module api.macro {
+namespace api.macro {
 
     export class PageContributions implements api.Equitable {
         private bodyBegin: string[];

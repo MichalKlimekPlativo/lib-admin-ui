@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
     import GetContentTypeByNameRequest = api.schema.content.GetContentTypeByNameRequest;
     import ContentType = api.schema.content.ContentType;
 

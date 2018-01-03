@@ -1,5 +1,5 @@
 
-module api.aggregation {
+namespace api.aggregation {
 
     export class Aggregation {
 

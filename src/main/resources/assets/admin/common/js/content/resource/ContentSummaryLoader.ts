@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class ContentSummaryLoader
         extends ContentSummaryPreLoader {

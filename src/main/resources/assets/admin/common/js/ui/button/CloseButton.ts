@@ -1,4 +1,4 @@
-module api.ui.button {
+namespace api.ui.button {
 
     export class CloseButton extends api.ui.button.Button {
 

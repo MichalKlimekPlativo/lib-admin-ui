@@ -1,4 +1,4 @@
-module api {
+namespace api {
 
     /**
      * An event representing that a property of an object have changed.

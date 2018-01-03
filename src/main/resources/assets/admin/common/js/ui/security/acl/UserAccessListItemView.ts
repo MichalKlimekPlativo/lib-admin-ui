@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
 
     import Principal = api.security.Principal;
     import User = api.security.User;

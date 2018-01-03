@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     export class ShowBrowsePanelEvent extends api.event.Event {
 

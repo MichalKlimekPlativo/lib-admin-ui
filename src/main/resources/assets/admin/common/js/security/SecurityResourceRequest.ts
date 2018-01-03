@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     import Role = api.security.Role;
     import Group = api.security.Group;

@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export class PageDescriptorResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

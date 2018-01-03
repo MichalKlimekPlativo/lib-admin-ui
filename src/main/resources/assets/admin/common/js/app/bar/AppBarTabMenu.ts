@@ -1,4 +1,4 @@
-module api.app.bar {
+namespace api.app.bar {
 
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;
     import HideTabMenuEvent = api.ui.tab.HideTabMenuEvent;

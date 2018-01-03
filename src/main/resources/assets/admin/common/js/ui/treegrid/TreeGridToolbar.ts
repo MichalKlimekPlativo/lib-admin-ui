@@ -1,4 +1,4 @@
-module api.ui.treegrid {
+namespace api.ui.treegrid {
 
     import Button = api.ui.button.Button;
     import SelectionController = api.ui.treegrid.actions.SelectionController;

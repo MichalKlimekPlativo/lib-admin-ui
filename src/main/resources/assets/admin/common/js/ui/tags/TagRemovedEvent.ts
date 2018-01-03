@@ -1,4 +1,4 @@
-module api.ui.tags {
+namespace api.ui.tags {
 
     export class TagRemovedEvent {
 

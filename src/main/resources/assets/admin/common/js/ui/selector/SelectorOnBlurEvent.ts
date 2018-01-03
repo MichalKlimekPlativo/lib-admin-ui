@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     import Element = api.dom.Element;
 

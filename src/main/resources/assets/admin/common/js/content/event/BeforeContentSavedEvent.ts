@@ -1,4 +1,4 @@
-module api.content.event {
+namespace api.content.event {
 
     export class BeforeContentSavedEvent extends api.event.Event {
 

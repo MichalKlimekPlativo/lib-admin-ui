@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import i18n = api.util.i18n;
 

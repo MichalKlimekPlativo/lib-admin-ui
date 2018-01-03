@@ -1,4 +1,4 @@
-module api.macro {
+namespace api.macro {
 
     export class MacroKey implements api.Equitable {
 

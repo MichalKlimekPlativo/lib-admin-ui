@@ -1,4 +1,4 @@
-module api.ui.image {
+namespace api.ui.image {
 
     import ImgEl = api.dom.ImgEl;
 

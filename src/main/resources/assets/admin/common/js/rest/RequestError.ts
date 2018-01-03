@@ -1,4 +1,4 @@
-module api.rest {
+namespace api.rest {
 
     import ExceptionType = api.ExceptionType;
     import i18n = api.util.i18n;

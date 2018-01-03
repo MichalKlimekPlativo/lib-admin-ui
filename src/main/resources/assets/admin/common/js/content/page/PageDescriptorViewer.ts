@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export class PageDescriptorViewer extends api.ui.NamesAndIconViewer<PageDescriptor> {
 

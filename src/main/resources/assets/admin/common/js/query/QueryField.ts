@@ -1,4 +1,4 @@
-module api.query {
+namespace api.query {
 
     export class QueryField {
 

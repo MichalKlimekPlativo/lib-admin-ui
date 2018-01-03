@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     export class ContentId implements api.Equitable {
 

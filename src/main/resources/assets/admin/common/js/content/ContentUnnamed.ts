@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import StringHelper = api.util.StringHelper;
     import i18n = api.util.i18n;

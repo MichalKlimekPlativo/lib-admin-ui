@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
 
     export class BrowseItemsChanges<M extends api.Equitable> {
 

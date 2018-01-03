@@ -1,4 +1,4 @@
-module api.thumb {
+namespace api.thumb {
 
     export class Thumbnail implements api.Equitable {
 

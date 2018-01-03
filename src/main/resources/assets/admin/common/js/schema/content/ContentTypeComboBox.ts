@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     import BaseLoader = api.util.loader.BaseLoader;
     import ContentTypeSummaryListJson = api.schema.content.ContentTypeSummaryListJson;

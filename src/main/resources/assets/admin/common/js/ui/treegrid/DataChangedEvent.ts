@@ -1,4 +1,4 @@
-module api.ui.treegrid {
+namespace api.ui.treegrid {
 
     export class DataChangedEvent<DATA> {
 

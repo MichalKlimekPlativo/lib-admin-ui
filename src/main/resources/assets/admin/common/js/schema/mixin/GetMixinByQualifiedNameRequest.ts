@@ -1,4 +1,4 @@
-module api.schema.mixin {
+namespace api.schema.mixin {
 
     export class GetMixinByQualifiedNameRequest extends MixinResourceRequest<api.schema.mixin.MixinJson, Mixin> {
 

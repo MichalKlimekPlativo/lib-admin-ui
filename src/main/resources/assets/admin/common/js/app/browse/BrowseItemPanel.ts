@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
     import i18n = api.util.i18n;
 
     export class BrowseItemPanel<M extends api.Equitable> extends api.ui.panel.DeckPanel {

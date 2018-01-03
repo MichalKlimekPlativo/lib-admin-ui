@@ -1,4 +1,4 @@
-module api.ui.button {
+namespace api.ui.button {
 
     import ProgressBar = api.ui.ProgressBar;
 

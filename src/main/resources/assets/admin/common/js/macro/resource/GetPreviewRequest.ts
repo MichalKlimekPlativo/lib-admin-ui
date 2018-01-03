@@ -1,4 +1,4 @@
-module api.macro.resource {
+namespace api.macro.resource {
 
     export class GetPreviewRequest extends PreviewRequest<MacroPreviewJson, MacroPreview> {
 

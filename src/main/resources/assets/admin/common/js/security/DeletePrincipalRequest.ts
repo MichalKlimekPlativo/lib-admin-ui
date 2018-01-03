@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export class DeletePrincipalRequest extends SecurityResourceRequest<DeletePrincipalResultsJson, DeletePrincipalResult[]> {
 

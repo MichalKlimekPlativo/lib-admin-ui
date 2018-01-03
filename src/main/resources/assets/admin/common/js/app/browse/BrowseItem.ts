@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
 
     export class BrowseItem<M extends api.Equitable> extends api.app.view.ViewItem<M> {
 

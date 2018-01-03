@@ -1,4 +1,4 @@
-module api.schema.relationshiptype {
+namespace api.schema.relationshiptype {
 
     import ApplicationEvent = api.application.ApplicationEvent;
     import ApplicationEventType = api.application.ApplicationEventType;

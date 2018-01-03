@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
     import Option = api.ui.selector.Option;
     import DescriptorKey = api.content.page.DescriptorKey;
     import RichDropdown = api.ui.selector.dropdown.RichDropdown;

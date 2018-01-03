@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class GetNearestSiteRequest extends ContentResourceRequest<api.content.json.ContentJson, api.content.site.Site> {
 

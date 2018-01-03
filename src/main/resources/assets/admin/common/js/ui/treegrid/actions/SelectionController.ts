@@ -1,4 +1,4 @@
-module api.ui.treegrid.actions {
+namespace api.ui.treegrid.actions {
 
     export class SelectionController extends Checkbox {
 

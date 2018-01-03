@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ContentSummary = api.content.ContentSummary;
     import PostLoader = api.util.loader.PostLoader;

@@ -1,4 +1,4 @@
-module api.ui.image {
+namespace api.ui.image {
 
     export class LazyImage extends api.dom.DivEl {
 

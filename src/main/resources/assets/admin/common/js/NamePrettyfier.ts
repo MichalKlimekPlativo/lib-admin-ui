@@ -1,4 +1,4 @@
-module api {
+namespace api {
 
     import StringHelper = api.util.StringHelper;
 

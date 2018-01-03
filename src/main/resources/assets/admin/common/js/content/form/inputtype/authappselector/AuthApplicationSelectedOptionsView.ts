@@ -1,4 +1,4 @@
-module api.content.site.inputtype.authappselector {
+namespace api.content.site.inputtype.authappselector {
 
     import Application = api.application.Application;
     import ApplicationKey = api.application.ApplicationKey;

@@ -1,4 +1,4 @@
-module api.ui.security.acl {
+namespace api.ui.security.acl {
     import TabMenuItemBuilder = api.ui.tab.TabMenuItemBuilder;
     import AppHelper = api.util.AppHelper;
 

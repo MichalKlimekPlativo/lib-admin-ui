@@ -1,4 +1,4 @@
-module api.ui.panel {
+namespace api.ui.panel {
 
     import TabBar = api.ui.tab.TabBar;
 

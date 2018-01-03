@@ -1,4 +1,4 @@
-module api.app.browse.filter {
+namespace api.app.browse.filter {
 
     import i18n = api.util.i18n;
 

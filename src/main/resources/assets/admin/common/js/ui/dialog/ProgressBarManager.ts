@@ -1,4 +1,4 @@
-module api.ui.dialog {
+namespace api.ui.dialog {
     import MenuButtonProgressBarManager = api.ui.button.MenuButtonProgressBarManager;
     import TaskState = api.task.TaskState;
     import i18n = api.util.i18n;

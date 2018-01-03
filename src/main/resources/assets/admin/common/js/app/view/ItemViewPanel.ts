@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
 
     export class ItemViewPanel<M extends api.Equitable> extends api.ui.panel.Panel implements api.ui.Closeable {
 

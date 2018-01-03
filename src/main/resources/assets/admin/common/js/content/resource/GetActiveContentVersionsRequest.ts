@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import ActiveContentVersionJson = api.content.json.ActiveContentVersionJson;
     import ContentVersionJson = api.content.json.ContentVersionJson;

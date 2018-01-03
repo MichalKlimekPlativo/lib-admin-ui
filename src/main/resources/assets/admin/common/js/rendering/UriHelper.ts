@@ -1,4 +1,4 @@
-module api.rendering {
+namespace api.rendering {
 
     export class UriHelper {
 

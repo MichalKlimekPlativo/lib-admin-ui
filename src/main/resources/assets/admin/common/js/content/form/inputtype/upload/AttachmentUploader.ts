@@ -1,4 +1,4 @@
-module api.content.form.inputtype.upload {
+namespace api.content.form.inputtype.upload {
     import PropertyArray = api.data.PropertyArray;
     import ValueTypes = api.data.ValueTypes;
     import Attachment = api.content.attachment.Attachment;

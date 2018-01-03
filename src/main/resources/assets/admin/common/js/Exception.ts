@@ -1,4 +1,4 @@
-module api {
+namespace api {
 
     export enum ExceptionType {
         INFO,

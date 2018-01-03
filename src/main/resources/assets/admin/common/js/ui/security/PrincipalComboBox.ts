@@ -1,4 +1,4 @@
-module api.ui.security {
+namespace api.ui.security {
 
     import Option = api.ui.selector.Option;
     import Principal = api.security.Principal;

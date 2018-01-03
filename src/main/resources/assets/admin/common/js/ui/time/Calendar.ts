@@ -1,4 +1,4 @@
-module api.ui.time {
+namespace api.ui.time {
 
     import i18n = api.util.i18n;
 

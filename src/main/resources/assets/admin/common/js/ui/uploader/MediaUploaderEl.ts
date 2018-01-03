@@ -1,4 +1,4 @@
-module api.ui.uploader {
+namespace api.ui.uploader {
     import ValueTypes = api.data.ValueTypes;
 
     export enum MediaUploaderElOperation {

@@ -1,4 +1,4 @@
-module api.ui.mask {
+namespace api.ui.mask {
 
     import ResponsiveManager = api.ui.responsive.ResponsiveManager;
     export class Mask extends api.dom.DivEl {

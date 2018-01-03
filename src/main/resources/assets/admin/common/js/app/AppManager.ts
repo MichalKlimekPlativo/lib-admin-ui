@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     export class AppManager {
         private static INSTANCE: api.app.AppManager = null;

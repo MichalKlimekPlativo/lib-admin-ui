@@ -1,4 +1,4 @@
-module api.app.browse.action {
+namespace api.app.browse.action {
 
     import Action = api.ui.Action;
 

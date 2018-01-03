@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     import PropertyTree = api.data.PropertyTree;
     import Component = api.content.page.region.Component;

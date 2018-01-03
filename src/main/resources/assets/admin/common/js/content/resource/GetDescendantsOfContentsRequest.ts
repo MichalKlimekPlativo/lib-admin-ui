@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     export class GetDescendantsOfContentsRequest extends ContentResourceRequest<api.content.json.ContentIdBaseItemJson[], ContentId[]> {
 

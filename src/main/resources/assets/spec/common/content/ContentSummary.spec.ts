@@ -1,4 +1,4 @@
-module ContentSummarySpec {
+namespace ContentSummarySpec {
 
     import ContentSummary = api.content.ContentSummary;
     import ContentSummaryJson = api.content.json.ContentSummaryJson;

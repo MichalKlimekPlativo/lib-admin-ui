@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     import RichComboBox = api.ui.selector.combobox.RichComboBox;
     import RichComboBoxBuilder = api.ui.selector.combobox.RichComboBoxBuilder;

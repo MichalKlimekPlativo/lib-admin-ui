@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import QueryExpr = api.query.expr.QueryExpr;
     import Expression = api.query.expr.Expression;

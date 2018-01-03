@@ -1,4 +1,4 @@
-module api.content.form.inputtype.contentselector {
+namespace api.content.form.inputtype.contentselector {
 
     import ContentSummaryPreLoader = api.content.resource.ContentSummaryPreLoader;
     import ContentSelectorQueryRequest = api.content.resource.ContentSelectorQueryRequest;

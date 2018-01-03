@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
     import UploadItem = api.ui.uploader.UploadItem;
 
     export class Application extends api.item.BaseItem {

@@ -1,4 +1,4 @@
-module api.ui.treegrid {
+namespace api.ui.treegrid {
 
     import TreeGridActions = api.ui.treegrid.actions.TreeGridActions;
 

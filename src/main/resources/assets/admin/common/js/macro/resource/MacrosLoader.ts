@@ -1,4 +1,4 @@
-module api.macro.resource {
+namespace api.macro.resource {
 
     import ApplicationEvent = api.application.ApplicationEvent;
     import ApplicationEventType = api.application.ApplicationEventType;

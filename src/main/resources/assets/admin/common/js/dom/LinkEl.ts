@@ -1,4 +1,4 @@
-module api.dom {
+namespace api.dom {
 
     export class LinkEl extends api.dom.Element {
 

@@ -1,4 +1,4 @@
-module api.ui {
+namespace api.ui {
 
     import i18n = api.util.i18n;
 

@@ -1,4 +1,4 @@
-module api.content.event {
+namespace api.content.event {
 
     import NodeEventJson = api.event.NodeEventJson;
     import NodeEventNodeJson = api.event.NodeEventNodeJson;

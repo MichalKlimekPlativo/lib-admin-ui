@@ -5,6 +5,6 @@
  *
  * The [[PropertyTree]] has a root [[PropertySet]] which contains a set of properties [[Property]].
  */
-module api.data {
+namespace api.data {
 
 }

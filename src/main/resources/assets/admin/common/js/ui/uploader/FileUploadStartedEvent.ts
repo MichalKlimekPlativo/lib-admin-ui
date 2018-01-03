@@ -1,4 +1,4 @@
-module api.ui.uploader {
+namespace api.ui.uploader {
 
     export class FileUploadStartedEvent<ITEM extends api.Equitable> {
 

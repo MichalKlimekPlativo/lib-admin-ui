@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import Thumbnail = api.thumb.Thumbnail;
     import ContentState = api.schema.content.ContentState;

@@ -1,4 +1,4 @@
-module api.content.site.inputtype.authappselector {
+namespace api.content.site.inputtype.authappselector {
     import PropertyArray = api.data.PropertyArray;
     import FormView = api.form.FormView;
     import Value = api.data.Value;

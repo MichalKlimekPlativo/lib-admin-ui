@@ -1,4 +1,4 @@
-module api.ui.uploader {
+namespace api.ui.uploader {
     import Element = api.dom.Element;
 
     export class FileUploaderEl<MODEL extends api.Equitable> extends UploaderEl<MODEL> {

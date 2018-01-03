@@ -1,4 +1,4 @@
-module api.util {
+namespace api.util {
     export class ScriptInjector {
         static inject(url:string, callback:() => void) {
 

@@ -1,4 +1,4 @@
-module api.query.expr {
+namespace api.query.expr {
 
     export class CompareExpr implements ConstraintExpr {
 

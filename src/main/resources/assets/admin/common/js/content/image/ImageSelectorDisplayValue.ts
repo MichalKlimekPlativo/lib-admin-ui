@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     import ContentSummary = api.content.ContentSummary;
     import UploadItem = api.ui.uploader.UploadItem;

@@ -1,4 +1,4 @@
-module api.content.form.inputtype.checkbox {
+namespace api.content.form.inputtype.checkbox {
 
     import Property = api.data.Property;
     import Value = api.data.Value;

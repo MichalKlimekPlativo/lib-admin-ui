@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export abstract class UserItem implements api.Equitable {
 

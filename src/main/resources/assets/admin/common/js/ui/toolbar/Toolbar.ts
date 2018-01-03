@@ -1,4 +1,4 @@
-module api.ui.toolbar {
+namespace api.ui.toolbar {
 
     import ActionButton = api.ui.button.ActionButton;
     import i18n = api.util.i18n;

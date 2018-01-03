@@ -1,4 +1,4 @@
-module api.util.loader.event {
+namespace api.util.loader.event {
 
     export class LoaderErrorEvent extends LoaderEvent {
 

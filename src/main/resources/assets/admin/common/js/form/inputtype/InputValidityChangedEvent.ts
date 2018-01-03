@@ -1,4 +1,4 @@
-module api.form.inputtype {
+namespace api.form.inputtype {
 
     export class InputValidityChangedEvent {
 

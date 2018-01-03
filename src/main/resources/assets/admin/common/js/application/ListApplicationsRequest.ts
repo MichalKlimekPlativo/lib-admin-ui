@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ListApplicationsRequest
         extends ApplicationResourceRequest<ApplicationListResult, Application[]> {

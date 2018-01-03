@@ -1,4 +1,4 @@
-module api.item {
+namespace api.item {
 
     export class BaseItem implements Item, api.Equitable {
 

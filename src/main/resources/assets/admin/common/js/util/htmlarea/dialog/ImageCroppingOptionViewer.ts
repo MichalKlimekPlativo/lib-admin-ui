@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     export class ImageCroppingOptionViewer extends api.ui.Viewer<ImageCroppingOption> {
 

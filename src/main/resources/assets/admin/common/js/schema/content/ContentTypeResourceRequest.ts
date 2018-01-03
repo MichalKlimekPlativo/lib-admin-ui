@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     export class ContentTypeResourceRequest<JSON_TYPE, PARSED_TYPE> extends api.rest.ResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

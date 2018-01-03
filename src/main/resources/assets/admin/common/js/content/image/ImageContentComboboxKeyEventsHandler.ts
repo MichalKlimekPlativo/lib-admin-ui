@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
     import KeyEventsHandler = api.event.KeyEventsHandler;
     import DropdownGrid = api.ui.selector.DropdownGrid;
     import ComboBoxOptionFilterInput = api.ui.selector.combobox.ComboBoxOptionFilterInput;

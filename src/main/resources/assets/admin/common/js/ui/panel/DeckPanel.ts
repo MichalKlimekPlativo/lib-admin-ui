@@ -1,4 +1,4 @@
-module api.ui.panel {
+namespace api.ui.panel {
 
     /**
      * A panel having multiple child panels, but showing only one at a time - like a deck of cards.

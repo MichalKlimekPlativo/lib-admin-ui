@@ -1,4 +1,4 @@
-module api.schema {
+namespace api.schema {
 
     export class SchemaIconUrlResolver extends api.icon.IconUrlResolver {
 

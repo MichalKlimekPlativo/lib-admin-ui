@@ -1,4 +1,4 @@
-module api.content.site {
+namespace api.content.site {
 
     import ApplicationKey = api.application.ApplicationKey;
 

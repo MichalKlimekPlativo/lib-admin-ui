@@ -1,4 +1,4 @@
-module api.app.view {
+namespace api.app.view {
     import ContentSummaryAndCompareStatus = api.content.ContentSummaryAndCompareStatus;
 
     export class ViewItem<M extends api.Equitable> implements api.Equitable {

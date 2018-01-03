@@ -1,4 +1,4 @@
-module api.macro.resource {
+namespace api.macro.resource {
 
     export class PreviewRequest<JSON_TYPE, PARSED_TYPE> extends MacroResourceRequest<JSON_TYPE, PARSED_TYPE> {
 

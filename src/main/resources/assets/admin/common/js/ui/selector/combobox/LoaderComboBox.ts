@@ -1,4 +1,4 @@
-module api.ui.selector.combobox {
+namespace api.ui.selector.combobox {
 
     export class LoaderComboBox<OPTION_DISPLAY_VALUE>
         extends ComboBox<OPTION_DISPLAY_VALUE> {

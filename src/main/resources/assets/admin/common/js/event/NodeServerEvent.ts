@@ -1,4 +1,4 @@
-module api.event {
+namespace api.event {
 
     export interface NodeEventJson extends EventJson {
         data: NodeEventDataJson;

@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import Form = api.ui.form.Form;
     import FormItem = api.ui.form.FormItem;

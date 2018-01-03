@@ -4,6 +4,6 @@
  * A form is defined by creating new [[Form]] and adding [[FormItem]]s to it.
  * A [[FormItem]] can either be a [[Input]], [[FormItemSet]] or a [[FieldSet]].
  */
-module api.form {
+namespace api.form {
 
 }

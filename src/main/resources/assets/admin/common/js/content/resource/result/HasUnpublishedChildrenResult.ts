@@ -1,4 +1,4 @@
-module api.content.resource.result {
+namespace api.content.resource.result {
 
     import HasUnpublishedChildrenJson = api.content.json.HasUnpublishedChildrenJson;
     import HasUnpublishedChildrenListJson = api.content.json.HasUnpublishedChildrenListJson;

@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     import NavigationItem = api.ui.NavigationItem;
     import Panel = api.ui.panel.Panel;

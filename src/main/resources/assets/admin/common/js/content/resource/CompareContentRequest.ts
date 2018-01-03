@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import CompareContentResults = api.content.resource.result.CompareContentResults;
 

@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import TaskState = api.task.TaskState;
     export class DeleteContentRequest extends ContentResourceRequest<api.task.TaskIdJson, api.task.TaskId> {

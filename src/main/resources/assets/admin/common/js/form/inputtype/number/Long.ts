@@ -1,4 +1,4 @@
-module api.content.form.inputtype.number.long {
+namespace api.content.form.inputtype.number.long {
 
     import ValueType = api.data.ValueType;
     import ValueTypes = api.data.ValueTypes;

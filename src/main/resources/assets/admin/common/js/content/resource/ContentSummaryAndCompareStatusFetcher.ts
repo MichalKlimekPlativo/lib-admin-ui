@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import CompareContentRequest = api.content.resource.CompareContentRequest;
     import BatchContentRequest = api.content.resource.BatchContentRequest;

@@ -1,4 +1,4 @@
-module api.ui.treegrid {
+namespace api.ui.treegrid {
 
     import GridColumnConfig = api.ui.grid.GridColumnConfig;
     import GridColumn = api.ui.grid.GridColumn;

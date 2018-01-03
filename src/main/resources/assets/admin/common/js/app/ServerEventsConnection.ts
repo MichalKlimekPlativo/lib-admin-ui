@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     import EventJson = api.event.EventJson;
 

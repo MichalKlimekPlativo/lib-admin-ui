@@ -1,4 +1,4 @@
-module api.data {
+namespace api.data {
 
     import LocalDate = api.util.LocalDate;
 

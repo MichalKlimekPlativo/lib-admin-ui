@@ -1,4 +1,4 @@
-module api.ui.selector.combobox {
+namespace api.ui.selector.combobox {
 
     import OptionFilterInputValueChangedEvent = api.ui.selector.OptionFilterInputValueChangedEvent;
     import Viewer = api.ui.Viewer;

@@ -1,4 +1,4 @@
-module api.dom {
+namespace api.dom {
     export class FormItemEl extends Element {
 
         private validityChangedListeners: {(event: ValidityChangedEvent):void}[] = [];

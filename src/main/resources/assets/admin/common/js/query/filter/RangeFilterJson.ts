@@ -1,4 +1,4 @@
-module api.query.filter {
+namespace api.query.filter {
 
     export interface RangeFilterJson {
         from: string;

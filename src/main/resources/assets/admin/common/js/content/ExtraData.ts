@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import MixinName = api.schema.mixin.MixinName;
     import PropertyTree = api.data.PropertyTree;

@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import OptionDataLoader = api.ui.selector.OptionDataLoader;
     import TreeNode = api.ui.treegrid.TreeNode;

@@ -1,4 +1,4 @@
-module api.form.inputtype.support {
+namespace api.form.inputtype.support {
 
     /*
      * Represents an occurrence or value of many. Translates to a Property in the data domain.

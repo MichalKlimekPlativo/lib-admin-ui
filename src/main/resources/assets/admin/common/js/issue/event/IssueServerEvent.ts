@@ -1,4 +1,4 @@
-module api.issue.event {
+namespace api.issue.event {
 
     import NodeServerChangeType = api.event.NodeServerChangeType;
 

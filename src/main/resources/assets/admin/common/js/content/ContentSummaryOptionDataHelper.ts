@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import OptionDataHelper = api.ui.selector.OptionDataHelper;
     import ContentTreeSelectorItem = api.content.resource.ContentTreeSelectorItem;

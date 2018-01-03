@@ -1,4 +1,4 @@
-module api.ui.selector.dropdown {
+namespace api.ui.selector.dropdown {
 
     import Option = api.ui.selector.Option;
     import OptionSelectedEvent = api.ui.selector.OptionSelectedEvent;

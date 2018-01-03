@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationCache extends api.cache.Cache<Application, ApplicationKey> {
 

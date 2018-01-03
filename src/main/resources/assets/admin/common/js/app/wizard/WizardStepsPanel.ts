@@ -1,4 +1,4 @@
-module api.app.wizard {
+namespace api.app.wizard {
 
     export class WizardStepsPanel extends api.ui.panel.NavigatedPanelStrip {
 

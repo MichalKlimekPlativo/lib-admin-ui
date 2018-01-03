@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import UndoPendingDeleteContentResultJson = api.content.json.UndoPendingDeleteContentResultJson;
 

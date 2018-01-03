@@ -1,4 +1,4 @@
-module api.aggregation {
+namespace api.aggregation {
 
     import BucketAggregationView = api.aggregation.BucketAggregationView;
     import AggregationSelection = api.aggregation.AggregationSelection;

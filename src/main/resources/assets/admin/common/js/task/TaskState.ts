@@ -1,4 +1,4 @@
-module api.task {
+namespace api.task {
 
     export enum TaskState {
         WAITING, RUNNING, FINISHED, FAILED

@@ -1,4 +1,4 @@
-module api.ui.dialog {
+namespace api.ui.dialog {
 
     import MenuButton = api.ui.button.MenuButton;
 

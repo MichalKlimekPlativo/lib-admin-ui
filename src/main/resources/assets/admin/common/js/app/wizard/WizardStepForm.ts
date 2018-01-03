@@ -1,4 +1,4 @@
-module api.app.wizard {
+namespace api.app.wizard {
 
     import ValidationRecording = api.form.ValidationRecording;
 

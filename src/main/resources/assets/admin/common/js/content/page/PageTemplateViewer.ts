@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     export class PageTemplateViewer extends api.ui.NamesAndIconViewer<PageTemplate> {
 

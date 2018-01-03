@@ -1,4 +1,4 @@
-module api.security.auth {
+namespace api.security.auth {
 
     export class LoginRequest extends AuthResourceRequest<LoginResultJson, LoginResult> {
 

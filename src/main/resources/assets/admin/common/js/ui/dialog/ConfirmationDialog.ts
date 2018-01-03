@@ -1,4 +1,4 @@
-module api.ui.dialog {
+namespace api.ui.dialog {
 
     import i18n = api.util.i18n;
 

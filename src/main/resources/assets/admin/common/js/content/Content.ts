@@ -1,4 +1,4 @@
-module api.content {
+namespace api.content {
 
     import AccessControlList = api.security.acl.AccessControlList;
     import Property = api.data.Property;

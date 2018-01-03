@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     import Button = api.ui.button.Button;
     import i18n = api.util.i18n;

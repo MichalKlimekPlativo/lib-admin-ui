@@ -1,4 +1,4 @@
-module OrderExprJsonSpec {
+namespace OrderExprJsonSpec {
 
     import OrderExprJson = api.content.json.OrderExprJson;
 

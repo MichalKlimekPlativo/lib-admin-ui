@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     import ApplicationJson = api.application.json.ApplicationJson;
     export class AuthApplicationRequest extends ApplicationResourceRequest<ApplicationJson, Application> {

@@ -1,4 +1,4 @@
-module api.content.form.inputtype.tag {
+namespace api.content.form.inputtype.tag {
 
     import PropertyPath = api.data.PropertyPath;
     import PropertyPathElement = api.data.PropertyPathElement;

@@ -1,4 +1,4 @@
-module api.content.event {
+namespace api.content.event {
 
     import NodeServerChangeType = api.event.NodeServerChangeType;
 

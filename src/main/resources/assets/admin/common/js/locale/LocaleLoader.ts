@@ -1,4 +1,4 @@
-module api.locale {
+namespace api.locale {
 
     export class LocaleLoader extends api.util.loader.BaseLoader<api.locale.json.LocaleListJson, Locale> {
 

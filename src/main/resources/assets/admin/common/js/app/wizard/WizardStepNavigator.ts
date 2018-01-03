@@ -1,4 +1,4 @@
-module api.app.wizard {
+namespace api.app.wizard {
 
     import KeyBinding = api.ui.KeyBinding;
     import KeyBindings = api.ui.KeyBindings;

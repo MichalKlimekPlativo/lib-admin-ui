@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
     import ApplicationKey = api.application.ApplicationKey;
     import ApplicationBasedCache = api.application.ApplicationBasedCache;
     import DescriptorKey = api.content.page.DescriptorKey;

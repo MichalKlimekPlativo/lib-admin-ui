@@ -1,4 +1,4 @@
-module api.site {
+namespace api.site {
 
     import Form = api.form.Form;
     import MixinNames = api.schema.mixin.MixinNames;

@@ -1,4 +1,4 @@
-module api.locale.json {
+namespace api.locale.json {
 
     export interface LocaleListJson {
         locales: LocaleJson[];

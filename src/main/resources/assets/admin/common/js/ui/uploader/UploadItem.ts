@@ -1,4 +1,4 @@
-module api.ui.uploader {
+namespace api.ui.uploader {
 
     export class UploadItem<MODEL extends api.Equitable> implements api.Equitable {
 

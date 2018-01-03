@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
     import Element = api.dom.Element;
 
     export class DropdownListGrid<OPTION_DISPLAY_VALUE> extends DropdownGrid<OPTION_DISPLAY_VALUE> {

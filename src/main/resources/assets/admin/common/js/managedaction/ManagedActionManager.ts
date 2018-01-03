@@ -1,4 +1,4 @@
-module api.managedaction {
+namespace api.managedaction {
 
     export type StateChangedListener = (state: ManagedActionState, executor: ManagedActionExecutor) => void;
 

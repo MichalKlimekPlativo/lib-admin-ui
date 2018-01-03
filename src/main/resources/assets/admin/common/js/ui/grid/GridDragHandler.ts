@@ -1,4 +1,4 @@
-module api.ui.grid {
+namespace api.ui.grid {
 
     import Element = api.dom.Element;
     import TreeGrid = api.ui.treegrid.TreeGrid;

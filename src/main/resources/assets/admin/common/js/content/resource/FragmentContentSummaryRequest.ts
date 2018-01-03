@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
 
     import CompareExpr = api.query.expr.CompareExpr;
     import FieldExpr = api.query.expr.FieldExpr;

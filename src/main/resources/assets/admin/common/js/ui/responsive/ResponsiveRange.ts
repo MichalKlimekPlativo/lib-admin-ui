@@ -1,4 +1,4 @@
-module api.ui.responsive {
+namespace api.ui.responsive {
 
     export class ResponsiveRange {
 

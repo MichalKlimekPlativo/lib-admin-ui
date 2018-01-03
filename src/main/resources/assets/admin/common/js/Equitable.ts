@@ -1,4 +1,4 @@
-module api {
+namespace api {
 
     /**
      * An interface telling that the object can be tested whether it's equal to another Equitable or not.

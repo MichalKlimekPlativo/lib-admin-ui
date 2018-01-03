@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     export class CreateFragmentRequest extends FragmentResourceRequest<api.content.json.ContentJson, api.content.Content> {
 

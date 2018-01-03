@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class ApplicationUploaderEl extends api.ui.uploader.UploaderEl<Application> {
 

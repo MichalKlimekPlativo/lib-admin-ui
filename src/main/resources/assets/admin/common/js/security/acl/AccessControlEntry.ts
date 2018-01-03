@@ -1,4 +1,4 @@
-module api.security.acl {
+namespace api.security.acl {
 
     import ArrayHelper = api.util.ArrayHelper;
     import Principal = api.security.Principal;

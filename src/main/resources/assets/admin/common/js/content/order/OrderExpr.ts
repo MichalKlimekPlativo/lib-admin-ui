@@ -1,4 +1,4 @@
-module api.content.order {
+namespace api.content.order {
 
     import OrderExprJson =  api.content.json.OrderExprJson;
     import OrderExprWrapperJson = api.content.json.OrderExprWrapperJson;

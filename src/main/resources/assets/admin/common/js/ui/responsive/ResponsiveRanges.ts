@@ -1,4 +1,4 @@
-module api.ui.responsive {
+namespace api.ui.responsive {
     export class ResponsiveRanges {
         public static _0_240: ResponsiveRange = new ResponsiveRange(0, 240);           // none (necessary for valid check)
         public static _240_360: ResponsiveRange = new ResponsiveRange(240, 375);       // mobile vertical

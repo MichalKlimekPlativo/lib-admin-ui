@@ -1,4 +1,4 @@
-module api.icon {
+namespace api.icon {
 
     export class IconUrlResolver {
 

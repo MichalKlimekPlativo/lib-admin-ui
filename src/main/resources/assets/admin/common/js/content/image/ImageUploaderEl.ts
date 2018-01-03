@@ -1,4 +1,4 @@
-module api.content.image {
+namespace api.content.image {
 
     import Point = api.ui.image.Point;
     import Rect = api.ui.image.Rect;

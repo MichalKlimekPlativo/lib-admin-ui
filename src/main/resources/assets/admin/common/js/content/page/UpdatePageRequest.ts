@@ -1,4 +1,4 @@
-module api.content.page {
+namespace api.content.page {
 
     import Content = api.content.Content;
     import ContentJson = api.content.json.ContentJson;

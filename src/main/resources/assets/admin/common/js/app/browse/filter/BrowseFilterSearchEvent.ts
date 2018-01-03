@@ -1,4 +1,4 @@
-module api.app.browse.filter {
+namespace api.app.browse.filter {
 
     export class BrowseFilterSearchEvent<DATA> extends api.event.Event {
         private data: DATA;

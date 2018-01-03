@@ -1,4 +1,4 @@
-module api.ui.selector.combobox {
+namespace api.ui.selector.combobox {
 
     export class BaseSelectedOptionsView<T> extends api.dom.DivEl implements SelectedOptionsView<T> {
 

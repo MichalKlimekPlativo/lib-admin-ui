@@ -1,4 +1,4 @@
-module api.util.loader {
+namespace api.util.loader {
 
     export class PostLoader<JSON, OBJECT> extends BaseLoader<JSON, OBJECT> {
 

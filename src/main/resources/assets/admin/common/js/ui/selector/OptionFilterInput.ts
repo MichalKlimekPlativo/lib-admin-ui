@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     import i18n = api.util.i18n;
 

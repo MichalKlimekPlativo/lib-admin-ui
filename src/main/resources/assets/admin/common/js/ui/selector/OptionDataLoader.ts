@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     import TreeNode = api.ui.treegrid.TreeNode;
     import PostLoader = api.util.loader.PostLoader;

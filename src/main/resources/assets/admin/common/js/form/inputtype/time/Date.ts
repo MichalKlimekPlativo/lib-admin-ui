@@ -1,4 +1,4 @@
-module api.content.form.inputtype.time {
+namespace api.content.form.inputtype.time {
 
     import support = api.form.inputtype.support;
 

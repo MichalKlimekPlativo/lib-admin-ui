@@ -1,4 +1,4 @@
-module api.macro {
+namespace api.macro {
 
     export class MacroPreview implements api.Equitable {
 

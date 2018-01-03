@@ -1,4 +1,4 @@
-module api.ui.time {
+namespace api.ui.time {
 
     import Timezone = api.util.Timezone;
 

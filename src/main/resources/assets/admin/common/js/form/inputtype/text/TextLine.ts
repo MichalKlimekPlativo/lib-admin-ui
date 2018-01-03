@@ -1,4 +1,4 @@
-module api.form.inputtype.text {
+namespace api.form.inputtype.text {
 
     import Property = api.data.Property;
     import Value = api.data.Value;

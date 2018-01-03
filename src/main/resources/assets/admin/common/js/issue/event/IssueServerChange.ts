@@ -1,4 +1,4 @@
-module api.issue.event {
+namespace api.issue.event {
 
     import NodeServerChange = api.event.NodeServerChange;
     import NodeEventJson = api.event.NodeEventJson;

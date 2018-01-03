@@ -1,4 +1,4 @@
-module api.cache {
+namespace api.cache {
 
     export class Cache<T,KEY> {
 

@@ -1,4 +1,4 @@
-module api.ui.form {
+namespace api.ui.form {
 
     export class FormItem extends api.dom.DivEl {
 

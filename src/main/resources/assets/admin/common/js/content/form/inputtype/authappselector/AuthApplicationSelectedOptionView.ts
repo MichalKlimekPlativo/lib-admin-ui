@@ -1,4 +1,4 @@
-module api.content.site.inputtype.authappselector {
+namespace api.content.site.inputtype.authappselector {
 
     import PropertyTree = api.data.PropertyTree;
     import Option = api.ui.selector.Option;

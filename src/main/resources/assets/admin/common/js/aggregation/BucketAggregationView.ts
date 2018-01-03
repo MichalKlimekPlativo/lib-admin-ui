@@ -1,4 +1,4 @@
-module api.aggregation {
+namespace api.aggregation {
 
     export class BucketAggregationView extends api.aggregation.AggregationView {
 

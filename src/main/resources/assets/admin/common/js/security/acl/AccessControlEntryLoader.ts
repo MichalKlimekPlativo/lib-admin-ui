@@ -1,4 +1,4 @@
-module api.security.acl {
+namespace api.security.acl {
 
     import PrincipalListJson = api.security.PrincipalListJson;
     import PrincipalJson = api.security.PrincipalJson;

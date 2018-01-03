@@ -1,4 +1,4 @@
-module api.rest {
+namespace api.rest {
 
     export class StatusCode {
 

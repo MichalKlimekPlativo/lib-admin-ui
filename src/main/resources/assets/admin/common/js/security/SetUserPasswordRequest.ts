@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export class SetUserPasswordRequest extends SecurityResourceRequest<UserJson, User> {
 

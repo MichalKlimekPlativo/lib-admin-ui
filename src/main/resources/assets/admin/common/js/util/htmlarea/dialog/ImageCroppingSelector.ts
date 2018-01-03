@@ -1,4 +1,4 @@
-module api.util.htmlarea.dialog {
+namespace api.util.htmlarea.dialog {
 
     import Dropdown = api.ui.selector.dropdown.Dropdown;
     import Option = api.ui.selector.Option;

@@ -1,4 +1,4 @@
-module api.security.event {
+namespace api.security.event {
 
     import NodeEventJson = api.event.NodeEventJson;
     import NodeEventNodeJson = api.event.NodeEventNodeJson;

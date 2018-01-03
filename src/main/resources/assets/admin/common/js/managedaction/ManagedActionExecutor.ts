@@ -1,4 +1,4 @@
-module api.managedaction {
+namespace api.managedaction {
 
     export interface ManagedActionExecutor {
 

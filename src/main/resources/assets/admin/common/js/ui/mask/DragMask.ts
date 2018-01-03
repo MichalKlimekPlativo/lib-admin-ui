@@ -1,4 +1,4 @@
-module api.ui.mask {
+namespace api.ui.mask {
 
     export class DragMask extends Mask {
 

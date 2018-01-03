@@ -1,4 +1,4 @@
-module api.app.wizard {
+namespace api.app.wizard {
 
     import ContentId = api.content.ContentId;
 

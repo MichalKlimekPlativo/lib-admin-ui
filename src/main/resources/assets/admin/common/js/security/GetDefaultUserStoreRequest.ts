@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
 
     export class GetDefaultUserStoreRequest extends SecurityResourceRequest<UserStoreJson, UserStore> {
 

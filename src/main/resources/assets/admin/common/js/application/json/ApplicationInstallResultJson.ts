@@ -1,4 +1,4 @@
-module api.application.json {
+namespace api.application.json {
 
     export interface ApplicationInstallResultJson {
 

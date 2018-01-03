@@ -1,4 +1,4 @@
-module api.content.attachment {
+namespace api.content.attachment {
 
     import Attachment = api.content.attachment.Attachment;
     import AttachmentJson = api.content.attachment.AttachmentJson;

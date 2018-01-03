@@ -1,4 +1,4 @@
-module api.app.browse {
+namespace api.app.browse {
 
     export class ItemDeselectedEvent<M extends api.Equitable> {
 

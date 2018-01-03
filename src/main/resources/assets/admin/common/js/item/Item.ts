@@ -1,4 +1,4 @@
-module api.item {
+namespace api.item {
 
     export interface Item {
 

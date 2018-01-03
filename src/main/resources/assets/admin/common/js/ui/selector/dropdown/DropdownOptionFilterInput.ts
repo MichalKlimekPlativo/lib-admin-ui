@@ -1,4 +1,4 @@
-module api.ui.selector.dropdown {
+namespace api.ui.selector.dropdown {
 
     export class DropdownOptionFilterInput extends api.ui.selector.OptionFilterInput {
 

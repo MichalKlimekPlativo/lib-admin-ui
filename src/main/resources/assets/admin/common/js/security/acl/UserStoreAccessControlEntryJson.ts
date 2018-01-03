@@ -1,4 +1,4 @@
-module api.security.acl {
+namespace api.security.acl {
 
     export interface UserStoreAccessControlEntryJson {
 

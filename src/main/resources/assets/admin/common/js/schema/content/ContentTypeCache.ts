@@ -1,4 +1,4 @@
-module api.schema.content {
+namespace api.schema.content {
 
     import ApplicationEvent = api.application.ApplicationEvent;
     import ApplicationEventType = api.application.ApplicationEventType;

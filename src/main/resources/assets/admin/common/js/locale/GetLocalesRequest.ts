@@ -1,4 +1,4 @@
-module api.locale {
+namespace api.locale {
 
     import LocaleListJson = api.locale.json.LocaleListJson;
     import LocaleJson = api.locale.json.LocaleJson;

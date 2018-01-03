@@ -1,4 +1,4 @@
-module api.security {
+namespace api.security {
     export class AuthConfig implements api.Equitable {
         private applicationKey: api.application.ApplicationKey;
         private config: api.data.PropertyTree;

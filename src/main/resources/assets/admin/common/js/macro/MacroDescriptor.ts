@@ -1,4 +1,4 @@
-module api.macro {
+namespace api.macro {
 
     export class MacroDescriptor
         implements api.Equitable {

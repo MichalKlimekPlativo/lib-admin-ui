@@ -1,4 +1,4 @@
-module api.ui.selector {
+namespace api.ui.selector {
 
     export class DropdownGridRowSelectedEvent {
 

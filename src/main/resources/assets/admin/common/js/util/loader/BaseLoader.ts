@@ -1,4 +1,4 @@
-module api.util.loader {
+namespace api.util.loader {
 
     import LoadedDataEvent = api.util.loader.event.LoadedDataEvent;
     import LoadingDataEvent = api.util.loader.event.LoadingDataEvent;

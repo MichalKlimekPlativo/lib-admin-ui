@@ -1,4 +1,4 @@
-module api.locale {
+namespace api.locale {
 
     export class Locale implements api.Equitable {
 

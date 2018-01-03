@@ -1,4 +1,4 @@
-module api.app {
+namespace api.app {
 
     import NodeServerEvent = api.event.NodeServerEvent;
     import NodeServerChangeType = api.event.NodeServerChangeType;

@@ -1,6 +1,6 @@
 import ApplicationKey = api.application.ApplicationKey;
 
-module api.content.page.region {
+namespace api.content.page.region {
 
     export class PartDescriptorDropdown extends DescriptorBasedDropdown<PartDescriptor> {
 

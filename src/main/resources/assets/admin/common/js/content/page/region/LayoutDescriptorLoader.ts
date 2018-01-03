@@ -1,4 +1,4 @@
-module api.content.page.region {
+namespace api.content.page.region {
 
     export class LayoutDescriptorLoader extends api.util.loader.BaseLoader<LayoutDescriptorsJson, LayoutDescriptor> {
 

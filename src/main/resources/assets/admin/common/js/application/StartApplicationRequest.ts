@@ -1,4 +1,4 @@
-module api.application {
+namespace api.application {
 
     export class StartApplicationRequest extends ApplicationResourceRequest<void, void> {
 

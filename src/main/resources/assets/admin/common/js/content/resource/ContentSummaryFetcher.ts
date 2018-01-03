@@ -1,4 +1,4 @@
-module api.content.resource {
+namespace api.content.resource {
     import ContentResponse = api.content.resource.result.ContentResponse;
 
     export class ContentSummaryFetcher {

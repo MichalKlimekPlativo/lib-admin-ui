@@ -1,4 +1,4 @@
-module api.content.form.inputtype.tag {
+namespace api.content.form.inputtype.tag {
 
     import Content = api.content.Content;
     import ContentJson = api.content.json.ContentJson;

@@ -1,4 +1,4 @@
-module api.form {
+namespace api.form {
 
     /**
      * A parent for [[FormItemSet]] and [[FormOptionSet]].
