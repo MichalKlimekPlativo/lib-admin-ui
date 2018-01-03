@@ -212,8 +212,8 @@ namespace api.ui {
             this.beforeExecuteListeners.push(listener);
         }
 
-        unBeforeExecute(listener: () => void) {
-            this.beforeExecuteListeners = this.beforeExecuteListeners.filter((currentListener: () => void) => {
+        unBeforeExecute(listener: (action: Action) => void) {
+            this.beforeExecuteListeners = this.beforeExecuteListeners.filter((currentListener: (action: Action) => void) => {
                 return listener !== currentListener;
             });
         }
@@ -229,7 +229,7 @@ namespace api.ui {
         }
 
         unAfterExecute(listener: (action: Action) => void) {
-            this.afterExecuteListeners = this.afterExecuteListeners.filter((currentListener: () => void) => {
+            this.afterExecuteListeners = this.afterExecuteListeners.filter((currentListener: (action: Action) => void) => {
                 return listener !== currentListener;
             });
         }

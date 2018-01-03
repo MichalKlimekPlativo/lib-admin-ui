@@ -2,7 +2,7 @@ namespace api.ui.menu {
 
     export class TreeContextMenu
         extends api.dom.DlEl {
-        private itemClickListeners: { (item: TreeMenuItem): void }[] = [];
+        private itemClickListeners: { (): void }[] = [];
 
         private actions: api.ui.Action[] = [];
 

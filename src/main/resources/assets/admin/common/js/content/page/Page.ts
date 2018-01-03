@@ -4,6 +4,7 @@ namespace api.content.page {
     import Component = api.content.page.region.Component;
     import GetContentByIdRequest = api.content.resource.GetContentByIdRequest;
     import Region = api.content.page.region.Region;
+    import ComponentTypeWrapperJson = api.content.page.region.ComponentTypeWrapperJson;
 
     export class Page implements api.Equitable, api.Cloneable {
 
@@ -187,7 +188,7 @@ namespace api.content.page {
             this.setCustomized(json.customized);
 
             if (json.fragment) {
-                let component: Component = api.content.page.region.ComponentFactory.createFromJson(json.fragment, 0, null);
+                let component: Component = api.content.page.region.ComponentFactory.createFromJson(json.fragment as ComponentTypeWrapperJson, 0, null);
                 this.setFragment(component);
             }
 
