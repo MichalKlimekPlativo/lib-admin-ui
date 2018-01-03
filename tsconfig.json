@@ -1,0 +1,11 @@
+{
+  "files": [
+    "src/main/resources/assets/admin/common/js/_module.ts"
+  ],
+  "exclude": [
+    "build/**/*",
+    "src/main/resources/assets/admin/common/lib/_all.js",
+    "src/main/resources/assets/admin/common/js/_all.js",
+    "src/main/resources/assets/admin/common/js/_all.d.ts"
+  ]
+}
